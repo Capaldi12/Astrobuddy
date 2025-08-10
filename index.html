@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Astrobuddy</title>
+    <meta name="description" content="Simple and compact interactive astroneer cheat sheet.">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script type="importmap">
+        {
+            "imports": {
+                "lit": "https://cdn.jsdelivr.net/gh/lit/dist@3/core/lit-core.min.js"
+            }
+        }
+    </script>
+    <script src="main.js" type="module"></script>
+</head>
+<body>
+    <header class="sticky-header">
+        <div class="header-left">
+            <div class="title-box">
+                <img class="site-image" src="images/Icon_Astroneer.png" alt="Astronneer Icon"/>
+                <h1 class="site-title">Astrobuddy</h1>
+            </div>
+            <nav class="main-nav">
+                <a href="#crafting" class="nav-link">Crafting</a>
+                <a href="#resources" class="nav-link">Resources</a>
+                <a href="#planets" class="nav-link">Planets</a>
+            </nav>
+        </div>
+        <div class="header-right">
+            <a href="https://github.com/capaldi12" class="github-link" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </header>
+
+    <main class="content-container">
+        <content-panel id="crafting" title="Crafting">
+            <div style="height: 500px;">Four columns for each printer</div>
+        </content-panel>
+
+        <content-panel id="resources" title="Resources">
+            <div style="height: 500px;">A table of resources (with how to get them)</div>
+        </content-panel>
+
+        <content-panel id="planets" title="Planets">
+            <div style="height: 500px;">A table of planets and useful info about them</div>
+        </content-panel>
+    </main>
+
+    <footer class="site-footer">
+        <p class="attribution">
+            Information is adapted from <a href="https://astroneer.wiki.gg/" target="_blank">Official Astroneer Wiki</a> and provided under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">CC BY-NC-SA 3.0</a>.
+        </p>
+    </footer>
+</body>
+</html>
