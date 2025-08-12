@@ -1,0 +1,142 @@
+/* Reference of all possible fields in data
+ ! Not a valid json (because of comments - like this one)
+ */
+{
+    "items": [
+        {
+            "name": "str",
+            "icon": "str",  // Filename
+            "tier": "str",  // See options
+
+            "tags": "list[str]",  // See tags
+
+            // Optional
+            "found_on": "'all' | List[str]",  // See options
+
+            // Optional
+            "power": {
+                "capacity": "int",  // Optional
+                "rate": "float"   // Can be production, consumption or throughput rate
+            },
+
+            // Optional
+            "unlock": {
+                // One of
+                "bytes": "int",
+                "mission": "str"  // For now
+            },
+
+            // Optional
+            "slots": {
+                // All are optional, but has to have at least one of them
+                "Small": "int",
+                "Medium": "int",
+                "Large": "int",
+                "Extra Large": "int"
+            },
+
+            // Optional
+            "scrap": "float",   // How many scrap you get from shredding item
+
+            // Optional
+            "bytes": "int",  // How many bytes item yields when researched
+
+            // Optional
+            "dlc": "str"  // Maybe
+
+        }
+    ],
+    "recipes": [
+        // TODO
+    ],
+    "planets": [
+        // TODO
+    ],
+
+/* Below items are not the part of data file */
+
+    // What options can be used for certain keys
+    "options": {
+        "tier": [
+            "Small",
+            "Medium",
+            "Large",
+            "Extra Large"
+        ],
+        "found_on": [
+            "Sylva",
+            "Desolo",
+            "Calidor",
+            "Vesania",
+            "Novus",
+            "Glacio",
+            "Atrox"
+        ]
+    },
+
+/* Allowed tags
+ * Item can have almost any combination of tags.
+ * There's no difference between tag and sub tag in practice, beyond how they
+ * would be displayed in filter selection.
+ * If a sub-tag is present, its parent must also be present.
+ * (Not a hard requirement, but it will make things easier.
+ * I don't want to deal with complex tags that go like
+ * "Storage/Canister/Soil", because filtering will get messy.)
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+    "tags": {
+        "Resource": {  // Everything that's used for crafting
+            "Natural": {},      // Can be dug up
+            "Raw": {},          // Can be refined
+            "Refined": {},      // Made in furnace
+            "Atmospheric": {},  // Gas, collected using atmospheric condenser
+            "Composite": {},    // Made on chemical lab
+            "Special": {}       // Does not fit categories above
+        },
+        "Platform": {},     // Machines can be placed and used on
+        "Storage": {      // Used to store items
+            "Silo": {},     // More slots than normal
+            "Canister": {     // Stores inside, not on
+                "Resource": {}, // TODO collision! Maybe, "Item"?
+                "Gas": {},
+                "Soil": {}     // Also fluid
+            }
+        },
+
+        // Performs some function when placed on a platform
+        "Module": {
+            "Printer": {},   // Crafts printing recipes
+            "Shredder": {},  // Shreds things into scrap
+            // Generates or stores power
+            "Power": {
+                "Generator": {
+                    "Fuel": {},
+                    "Solar": {},
+                    "Wind": {},
+                    "RTG": {}
+                },
+                "Battery": {}
+            }
+        },
+
+        // Transportation
+        "Vehicle": {
+            "Rover": {},
+            "Shuttle": {},
+            "Rail": {}
+        },
+        "Structure": {},    // Can be placed in the world
+        "Widget": {},   // Can be attached to top slots on backpack and used with hotkeys (C and V on pc)
+
+        // Attaches to terrain tool, modifies its functions
+        "Augment": {
+            "Drill Mod": {}
+        },
+        "Automation": {},   // Used for automating resource processing and stuff
+
+        // Sizes/tiers for convenience
+        "Small": {},
+        "Medium": {},
+        "Large": {},
+        "Extra Large": {}
+    }
+}
