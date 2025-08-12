@@ -1,24 +1,27 @@
-import re
-import json
-
+from bs4 import BeautifulSoup, Tag
 
 from parser import Parser
+from helpers import get_image_name
 
 
 class ItemsParser(Parser):
+    """Parser for Items page"""
+
     printers = ['Backpack', 'Small Printer', 'Medium Printer', 'Large Printer']
 
     def __init__(self, custom_url: str | None = None):
         super().__init__('Items', custom_url)
 
-    def parse(self):
+    def do_parse(self, soup: BeautifulSoup):
         """Parse the Items page."""
-        soup = self.get_soup()
 
         tables = soup.select('table.darktable')
 
         items = []
         recipes = []
+
+        table: Tag
+        printer: str
 
         for table, printer in zip(tables[:-1], self.printers):   # Don't need other objects
             rows = table.select('tr')
@@ -32,15 +35,17 @@ class ItemsParser(Parser):
                     recipe['station'] = printer
                     recipes.append(recipe)
 
-        with open(self.output_filename, 'w', encoding='utf-8') as file:
-            json.dump({'items': items, 'recipes': recipes}, file, indent=4)
+        return {
+            'items': items,
+            'recipes': recipes
+        }
 
-    def process_row(self, row):
+    def process_row(self, row: Tag):
         """Process a table row and return the item and its recipe."""
 
         result, size, craft, byte_cost = row.select('td')
 
-        icon = self.get_image_name(result.select('img')[0]['src'])
+        icon = get_image_name(result.select('img')[0]['src'])
         name = result.text.strip()
         tier = size.text.strip()
         unlock = self.get_unlock(byte_cost.text.strip())
@@ -62,12 +67,7 @@ class ItemsParser(Parser):
             'unlock': unlock,
         }, recipe
 
-    def get_image_name(self, image_url):
-        """Extract image name from url."""
-
-        return re.search(r'/([^/]*\.png)/', image_url)[1]
-
-    def get_unlock(self, byte_cost):
+    def get_unlock(self, byte_cost: str):
         """Make object that describes item unlocking method."""
 
         byte_cost = byte_cost.replace(',', '')
@@ -85,12 +85,11 @@ class ItemsParser(Parser):
                 return None
             else:
                 return {
-                    'Mission': 'TODO'
+                    'mission': byte_cost
                 }
 
-
-    def get_materials(self, craft):
-        """Get object that describes item's recipe."""
+    def get_materials(self, craft: Tag):
+        """Get object's list of materials."""
 
         if 'N/A' in craft.text or 'Missions' in craft.text:
             return None

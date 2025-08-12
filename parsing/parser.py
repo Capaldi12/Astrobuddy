@@ -1,3 +1,4 @@
+import json
 import os
 
 from bs4 import BeautifulSoup
@@ -20,7 +21,6 @@ class Parser:
         """Wiki page url."""
 
         return self.custom_url or f'https://astroneer.wiki.gg/wiki/{self.name}'
-
 
     @property
     def page_filename(self) -> str:
@@ -49,5 +49,13 @@ class Parser:
 
     def parse(self) -> None:
         """Parse the page."""
+
+        data = self.do_parse(self.get_soup())
+
+        with open(self.output_filename, 'w', encoding='utf-8') as file:
+            json.dump(data, file, indent=4)
+
+    def do_parse(self, soup: BeautifulSoup) -> dict[str, list]:
+        """Do the actual parsing"""
 
         raise NotImplementedError('Override this method!')
