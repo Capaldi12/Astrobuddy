@@ -15,14 +15,22 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"
+    ></script>
+
     <script type="importmap">
         {
             "imports": {
-                "lit": "https://cdn.jsdelivr.net/gh/lit/dist@3/core/lit-core.min.js"
+                "@lit": "https://cdn.jsdelivr.net/gh/lit/dist@3/core/lit-core.min.js",
+                "@lit/context": "https://cdn.jsdelivr.net/npm/@lit/context@1.1.6/+esm"
             }
         }
     </script>
     <script src="main.js" type="module"></script>
+    <script src="onload.js"></script>
 </head>
 <body>
     <header class="sticky-header">
@@ -45,17 +53,19 @@
     </header>
 
     <main class="content-container">
-        <content-panel id="crafting" title="Crafting">
-            <div style="height: 500px;">Four columns for each printer</div>
-        </content-panel>
+        <data-context>
+            <content-panel id="crafting" title="Crafting">
+                <crafting-panel></crafting-panel>
+            </content-panel>
 
-        <content-panel id="resources" title="Resources">
-            <div style="height: 500px;">A table of resources (with how to get them)</div>
-        </content-panel>
+            <content-panel id="resources" title="Resources">
+                <div style="height: 500px;">A table of resources (with how to get them)</div>
+            </content-panel>
 
-        <content-panel id="planets" title="Planets">
-            <div style="height: 500px;">A table of planets and useful info about them</div>
-        </content-panel>
+            <content-panel id="planets" title="Planets">
+                <div style="height: 500px;">A table of planets and useful info about them</div>
+            </content-panel>
+        </data-context>
     </main>
 
     <footer class="site-footer">

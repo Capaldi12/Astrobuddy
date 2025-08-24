@@ -1,0 +1,2491 @@
+{
+    "items": [
+        {
+            "icon": "Icon_Soil.png",
+            "name": "Soil",
+            "tier": "Small",
+            "tags": [
+                "Resource",
+                "Natural"
+            ]
+        },
+        {
+            "icon": "Icon_Organic.png",
+            "name": "Organic",
+            "tier": "Small",
+            "tags": [
+                "Resource",
+                "Natural"
+            ]
+        },
+        {
+            "icon": "Icon_Compound.png",
+            "name": "Compound",
+            "tier": "Small",
+            "tags": [
+                "Resource",
+                "Natural"
+            ]
+        },
+        {
+            "icon": "Icon_Resin.png",
+            "name": "Resin",
+            "tier": "Small",
+            "tags": [
+                "Resource",
+                "Natural"
+            ]
+        },
+        {
+            "icon": "Icon_Clay.png",
+            "name": "Clay",
+            "tier": "Small",
+            "tags": [
+                "Resource",
+                "Natural"
+            ]
+        },
+        {
+            "icon": "Icon_Quartz.png",
+            "name": "Quartz",
+            "tier": "Small",
+            "tags": [
+                "Resource",
+                "Natural"
+            ]
+        },
+        {
+            "icon": "Icon_Ammonium.png",
+            "name": "Ammonium",
+            "tier": "Small",
+            "tags": [
+                "Resource",
+                "Natural"
+            ]
+        },
+        {
+            "icon": "Icon_Graphite.png",
+            "name": "Graphite",
+            "tier": "Small",
+            "tags": [
+                "Resource",
+                "Natural"
+            ]
+        },
+        {
+            "icon": "Icon_Laterite.png",
+            "name": "Laterite",
+            "tier": "Small",
+            "tags": [
+                "Resource",
+                "Natural"
+            ]
+        },
+        {
+            "icon": "Icon_Astronium.png",
+            "name": "Astronium",
+            "tier": "Small",
+            "tags": [
+                "Resource",
+                "Natural"
+            ]
+        },
+        {
+            "icon": "Icon_Tier_Medium.png",
+            "name": "Small Printer",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 0
+            }
+        },
+        {
+            "icon": "Icon_Packager.png",
+            "name": "Packager",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Leveling_Block.png",
+            "name": "Leveling Block",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 500
+            }
+        },
+        {
+            "icon": "Icon_Tether.png",
+            "name": "Tethers",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 0
+            }
+        },
+        {
+            "icon": "Icon_Oxygen_Tank.png",
+            "name": "Oxygen Filters",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 0
+            }
+        },
+        {
+            "icon": "Icon_Oxygen_Tank.png",
+            "name": "Oxygen Tank",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 2000
+            }
+        },
+        {
+            "icon": "Icon_Oxygenator.png",
+            "name": "Portable Oxygenator",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 10000
+            }
+        },
+        {
+            "icon": "Icon_Canister.png",
+            "name": "Small Canister",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 0
+            }
+        },
+        {
+            "icon": "Icon_Beacon.png",
+            "name": "Beacon",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 0
+            }
+        },
+        {
+            "icon": "Icon_Worklight.png",
+            "name": "Worklight",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 0
+            }
+        },
+        {
+            "icon": "Icon_Worklight.png",
+            "name": "Glowsticks",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 350
+            }
+        },
+        {
+            "icon": "Icon_Worklight.png",
+            "name": "Floodlight",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 2000
+            }
+        },
+        {
+            "icon": "Icon_Generator.png",
+            "name": "Small Generator",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 0
+            }
+        },
+        {
+            "icon": "Icon_Power_Cells.png",
+            "name": "Power Cells",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 800
+            }
+        },
+        {
+            "icon": "Icon_Solar_Panel.png",
+            "name": "Small Solar",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 300
+            }
+        },
+        {
+            "icon": "Icon_Wind_Turbine.png",
+            "name": "Small Wind Turbine",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 300
+            }
+        },
+        {
+            "icon": "Icon_Battery.png",
+            "name": "Small Battery",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 2000
+            }
+        },
+        {
+            "icon": "Icon_Augment.png",
+            "name": "Boost Mod",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Augment.png",
+            "name": "Wide Mod",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Augment.png",
+            "name": "Narrow Mod",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Augment.png",
+            "name": "Inhibitor Mod",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Augment.png",
+            "name": "Alignment Mod",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Augment.png",
+            "name": "Drill Mod 1",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Augment.png",
+            "name": "Drill Mod 2",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 2500
+            }
+        },
+        {
+            "icon": "Icon_Augment.png",
+            "name": "Drill Mod 3",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 3750
+            }
+        },
+        {
+            "icon": "Icon_Dynamite.png",
+            "name": "Dynamite",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 3750
+            }
+        },
+        {
+            "icon": "Icon_Fireworks.png",
+            "name": "Fireworks",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 3750
+            }
+        },
+        {
+            "icon": "Icon_Small_Camera.png",
+            "name": "Small Camera",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 2500
+            }
+        },
+        {
+            "icon": "Icon_Horn.png",
+            "name": "Small Trumpet Horn",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Horn.png",
+            "name": "Small Squeaker Horn",
+            "tier": "Small",
+            "unlock": null
+        },
+        {
+            "icon": "Icon_Figurine.png",
+            "name": "Holographic Figurine",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 3000
+            }
+        },
+        {
+            "icon": "Icon_Figurine.png",
+            "name": "Stone Figurine",
+            "tier": "Small",
+            "unlock": null
+        },
+        {
+            "icon": "Icon_Augment.png",
+            "name": "Terrain Analyzer",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 2000
+            }
+        },
+        {
+            "icon": "Icon_Probe_Scanner.png",
+            "name": "Probe Scanner",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 4000
+            }
+        },
+        {
+            "icon": "Icon_Thruster.png",
+            "name": "Solid-Fuel Jump Jet",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 5000
+            }
+        },
+        {
+            "icon": "Icon_Thruster.png",
+            "name": "Hydrazine Jet Pack",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 15000
+            }
+        },
+        {
+            "icon": "Icon_Hoverboard.png",
+            "name": "Hoverboard",
+            "tier": "Small",
+            "unlock": {
+                "mission": "Unlocked by Missions"
+            }
+        },
+        {
+            "icon": "Icon_Generator.png",
+            "name": "QT-RTG",
+            "tier": "Small",
+            "unlock": null
+        },
+        {
+            "icon": "Icon_Tier_Large.png",
+            "name": "Medium Printer",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 0
+            }
+        },
+        {
+            "icon": "Icon_Oxygenator.png",
+            "name": "Oxygenator",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 1800
+            }
+        },
+        {
+            "icon": "Icon_Shredder.png",
+            "name": "Medium Shredder",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 1250
+            }
+        },
+        {
+            "icon": "Icon_Shelter.png",
+            "name": "Field Shelter",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 8000
+            }
+        },
+        {
+            "icon": "Icon_Crane.png",
+            "name": "Auto Arm",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 1500
+            }
+        },
+        {
+            "icon": "Icon_Canister.png",
+            "name": "Medium Resource Canister",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 2000
+            }
+        },
+        {
+            "icon": "Icon_Canister.png",
+            "name": "Medium Fluid & Soil Canister",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 2500
+            }
+        },
+        {
+            "icon": "Icon_Canister.png",
+            "name": "Medium Gas Canister",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 4000
+            }
+        },
+        {
+            "icon": "Icon_Sensor.png",
+            "name": "Power Sensor",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 500
+            }
+        },
+        {
+            "icon": "Icon_Sensor.png",
+            "name": "Storage Sensor",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 750
+            }
+        },
+        {
+            "icon": "Icon_Sensor.png",
+            "name": "Battery Sensor",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 750
+            }
+        },
+        {
+            "icon": "Icon_Sensor.png",
+            "name": "Button Repeater",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 300
+            }
+        },
+        {
+            "icon": "Icon_Sensor.png",
+            "name": "Proximity Repeater",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 700
+            }
+        },
+        {
+            "icon": "Icon_Sensor.png",
+            "name": "Delay Repeater",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Sensor.png",
+            "name": "Count Repeater",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Power_Extenders.png",
+            "name": "Power Extenders",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 500
+            }
+        },
+        {
+            "icon": "Icon_Splitter.png",
+            "name": "Power Switch",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 750
+            }
+        },
+        {
+            "icon": "Icon_Splitter.png",
+            "name": "Splitter",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Generator.png",
+            "name": "Medium Generator",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 2000
+            }
+        },
+        {
+            "icon": "Icon_Solar_Panel.png",
+            "name": "Medium Solar Panel",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 2000
+            }
+        },
+        {
+            "icon": "Icon_Wind_Turbine.png",
+            "name": "Medium Wind Turbine",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 2500
+            }
+        },
+        {
+            "icon": "Icon_Battery.png",
+            "name": "Medium Battery",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 3750
+            }
+        },
+        {
+            "icon": "Icon_Generator.png",
+            "name": "RTG",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 12500
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "Medium Platform A",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 0
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "Medium Platform B",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 250
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "Medium Platform C",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 400
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "Tall Platform",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 750
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "Medium T-Platform",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 400
+            }
+        },
+        {
+            "icon": "Icon_Storage.png",
+            "name": "Medium Storage",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 0
+            }
+        },
+        {
+            "icon": "Icon_Storage.png",
+            "name": "Medium Storage Silo",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 3000
+            }
+        },
+        {
+            "icon": "Icon_Storage.png",
+            "name": "Tall Storage",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 400
+            }
+        },
+        {
+            "icon": "Icon_Rover_Seat.png",
+            "name": "Rover Seat",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 0
+            }
+        },
+        {
+            "icon": "Icon_Rover.png",
+            "name": "Tractor",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Rover.png",
+            "name": "Trailer",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 1500
+            }
+        },
+        {
+            "icon": "Icon_Horn.png",
+            "name": "Medium Buggy Horn",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 2000
+            }
+        },
+        {
+            "icon": "Icon_Winch.png",
+            "name": "Winch",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 3750
+            }
+        },
+        {
+            "icon": "Icon_Paver.png",
+            "name": "Paver",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 5000
+            }
+        },
+        {
+            "icon": "Icon_Drill.png",
+            "name": "Drill Strength 1",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 2500
+            }
+        },
+        {
+            "icon": "Icon_Drill.png",
+            "name": "Drill Strength 2",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 5000
+            }
+        },
+        {
+            "icon": "Icon_Drill.png",
+            "name": "Drill Strength 3",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 7500
+            }
+        },
+        {
+            "icon": "Icon_Thruster.png",
+            "name": "Solid-Fuel Thruster",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 500
+            }
+        },
+        {
+            "icon": "Icon_Thruster.png",
+            "name": "Hydrazine Thruster",
+            "tier": "Medium",
+            "unlock": {
+                "bytes": 3750
+            }
+        },
+        {
+            "icon": "Icon_Rail_Post.png",
+            "name": "Rail Post Bundle",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 750
+            }
+        },
+        {
+            "icon": "Icon_Rail_Post.png",
+            "name": "Tall Rail Post Bundle",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 750
+            }
+        },
+        {
+            "icon": "Icon_Rail_Post.png",
+            "name": "Rail Junction Bundle",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Tier_Extra_Large.png",
+            "name": "Large Printer",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 0
+            }
+        },
+        {
+            "icon": "Icon_Smelting_Furnace.png",
+            "name": "Smelting Furnace",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 250
+            }
+        },
+        {
+            "icon": "Icon_Soil_Centrifuge.png",
+            "name": "Soil Centrifuge",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 750
+            }
+        },
+        {
+            "icon": "Icon_Chemistry_Lab.png",
+            "name": "Chemistry Lab",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 1600
+            }
+        },
+        {
+            "icon": "Icon_Atmospheric_Condenser.png",
+            "name": "Atmospheric Condenser",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 2200
+            }
+        },
+        {
+            "icon": "Icon_Research.png",
+            "name": "Research Chamber",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 0
+            }
+        },
+        {
+            "icon": "Icon_Trade_Platform.png",
+            "name": "EXO Request Platform",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 0
+            }
+        },
+        {
+            "icon": "Icon_Trade_Platform.png",
+            "name": "Trade Platform",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 2500
+            }
+        },
+        {
+            "icon": "Icon_Shredder.png",
+            "name": "Large Shredder",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 2500
+            }
+        },
+        {
+            "icon": "Icon_Solar_Panel.png",
+            "name": "Large Solar Panel",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 4000
+            }
+        },
+        {
+            "icon": "Icon_Wind_Turbine.png",
+            "name": "Large Wind Turbine",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 3500
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "Large Platform A",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 0
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "Large Platform B",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 500
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "Large Platform C",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "Large T-Platform",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "Large Curved Platform",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "Large Extended Platform",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 500
+            }
+        },
+        {
+            "icon": "Icon_Canister.png",
+            "name": "Large Resource Canister",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 5000
+            }
+        },
+        {
+            "icon": "Icon_Storage.png",
+            "name": "Large Storage",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 2000
+            }
+        },
+        {
+            "icon": "Icon_Storage.png",
+            "name": "Large Storage Silo A",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 5000
+            }
+        },
+        {
+            "icon": "Icon_Storage.png",
+            "name": "Large Storage Silo B",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 7500
+            }
+        },
+        {
+            "icon": "Icon_Storage.png",
+            "name": "Large Active Storage",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 2000
+            }
+        },
+        {
+            "icon": "Icon_Rover.png",
+            "name": "Buggy",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 1500
+            }
+        },
+        {
+            "icon": "Icon_Rover_Seat.png",
+            "name": "Large Rover Seat",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 2000
+            }
+        },
+        {
+            "icon": "Icon_Rover.png",
+            "name": "Medium Rover",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 3750
+            }
+        },
+        {
+            "icon": "Icon_VTOL.png",
+            "name": "VTOL",
+            "tier": "Large",
+            "unlock": {
+                "mission": "Unlocked by Missions"
+            }
+        },
+        {
+            "icon": "Icon_Crane.png",
+            "name": "Crane",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 4500
+            }
+        },
+        {
+            "icon": "Icon_Horn.png",
+            "name": "Large Fog Horn",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 4000
+            }
+        },
+        {
+            "icon": "Icon_Horn.png",
+            "name": "Large Starship Horn",
+            "tier": "Large",
+            "unlock": null
+        },
+        {
+            "icon": "Icon_Rail_Engine.png",
+            "name": "Rail Engine",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Rail_Engine.png",
+            "name": "Rail Car",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 1500
+            }
+        },
+        {
+            "icon": "Icon_Recreational_Sphere.png",
+            "name": "Recreational Sphere",
+            "tier": "Large",
+            "unlock": {
+                "bytes": 4500
+            }
+        },
+        {
+            "icon": "Icon_Shelter.png",
+            "name": "Shelter",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 0
+            }
+        },
+        {
+            "icon": "Icon_Auto_Extractor.png",
+            "name": "Auto Extractor",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 7500
+            }
+        },
+        {
+            "icon": "Icon_Shredder.png",
+            "name": "Extra Large Shredder",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 5000
+            }
+        },
+        {
+            "icon": "Icon_Solar_Panel.png",
+            "name": "Solar Array",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 6000
+            }
+        },
+        {
+            "icon": "Icon_Wind_Turbine.png",
+            "name": "XL Wind Turbine",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 4500
+            }
+        },
+        {
+            "icon": "Icon_Sensor.png",
+            "name": "Medium Sensor Arch",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 500
+            }
+        },
+        {
+            "icon": "Icon_Sensor.png",
+            "name": "XL Sensor Arch",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Sensor.png",
+            "name": "XL Sensor Canopy",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Sensor.png",
+            "name": "Large Sensor Ring",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 500
+            }
+        },
+        {
+            "icon": "Icon_Sensor.png",
+            "name": "Large Sensor Hoop A",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 750
+            }
+        },
+        {
+            "icon": "Icon_Sensor.png",
+            "name": "Large Sensor Hoop B",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 750
+            }
+        },
+        {
+            "icon": "Icon_Sensor.png",
+            "name": "XL Sensor Hoop A",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 750
+            }
+        },
+        {
+            "icon": "Icon_Sensor.png",
+            "name": "XL Sensor Hoop B",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "Extra Large Platform A",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 2000
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "Extra Large Platform B",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 3000
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "Extra Large Platform C",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 2000
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "Extra Large Curved Platform",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 2000
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "XL Extended Platform",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 750
+            }
+        },
+        {
+            "icon": "Icon_Platforms.png",
+            "name": "Figurine Platform",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 3000
+            }
+        },
+        {
+            "icon": "Icon_Storage.png",
+            "name": "Extra Large Storage",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 2000
+            }
+        },
+        {
+            "icon": "Icon_Rover.png",
+            "name": "Large Rover",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 5000
+            }
+        },
+        {
+            "icon": "Icon_Landing_Pad.png",
+            "name": "Landing Pad",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 750
+            }
+        },
+        {
+            "icon": "Icon_Shuttle.png",
+            "name": "Small Shuttle",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 1500
+            }
+        },
+        {
+            "icon": "Icon_Shuttle.png",
+            "name": "Medium Shuttle",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 3750
+            }
+        },
+        {
+            "icon": "Icon_Shuttle.png",
+            "name": "Large Shuttle",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 5000
+            }
+        },
+        {
+            "icon": "Icon_Rail_Station.png",
+            "name": "Rail Station",
+            "tier": "Extra Large",
+            "unlock": {
+                "bytes": 2500
+            }
+        },
+        {
+            "icon": "Icon_Shelter.png",
+            "name": "PUM-KN Shelter",
+            "tier": "Extra Large",
+            "unlock": {
+                "mission": "EXO F.A.R.M. Unlock"
+            }
+        }
+    ],
+    "recipes": [
+        {
+            "type": "printing",
+            "result": "Small Printer",
+            "materials": [
+                "Compound"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Packager",
+            "materials": [
+                "Graphite"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Leveling Block",
+            "materials": [
+                "Small Canister"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Tethers",
+            "materials": [
+                "Compound"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Oxygen Filters",
+            "materials": [
+                "Resin"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Oxygen Tank",
+            "materials": [
+                "Glass"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Portable Oxygenator",
+            "materials": [
+                "Nanocarbon Alloy"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Small Canister",
+            "materials": [
+                "Resin"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Beacon",
+            "materials": [
+                "Quartz"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Worklight",
+            "materials": [
+                "Copper"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Glowsticks",
+            "materials": [
+                "Organic"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Floodlight",
+            "materials": [
+                "Tungsten"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Small Generator",
+            "materials": [
+                "Compound"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Power Cells",
+            "materials": [
+                "Graphite"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Small Solar",
+            "materials": [
+                "Copper"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Small Wind Turbine",
+            "materials": [
+                "Ceramic"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Small Battery",
+            "materials": [
+                "Zinc"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Boost Mod",
+            "materials": [
+                "Zinc"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Wide Mod",
+            "materials": [
+                "Zinc"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Narrow Mod",
+            "materials": [
+                "Zinc"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Inhibitor Mod",
+            "materials": [
+                "Zinc"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Alignment Mod",
+            "materials": [
+                "Zinc"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Drill Mod 1",
+            "materials": [
+                "Ceramic"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Drill Mod 2",
+            "materials": [
+                "Tungsten Carbide"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Drill Mod 3",
+            "materials": [
+                "Diamond"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Dynamite",
+            "materials": [
+                "Explosive Powder"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Fireworks",
+            "materials": [
+                "Explosive Powder"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Small Camera",
+            "materials": [
+                "EXO Chip"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Small Trumpet Horn",
+            "materials": [
+                "Resin"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Holographic Figurine",
+            "materials": [
+                "Plastic"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Terrain Analyzer",
+            "materials": [
+                "Zinc"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Probe Scanner",
+            "materials": [
+                "Steel"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Solid-Fuel Jump Jet",
+            "materials": [
+                "Aluminum Alloy"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Hydrazine Jet Pack",
+            "materials": [
+                "Titanium Alloy"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Hoverboard",
+            "materials": [
+                "EXO Chip"
+            ],
+            "station": "Backpack Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Printer",
+            "materials": [
+                "Compound",
+                "Compound"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Oxygenator",
+            "materials": [
+                "Aluminum",
+                "Ceramic"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Shredder",
+            "materials": [
+                "Iron",
+                "Iron"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Field Shelter",
+            "materials": [
+                "Silicone",
+                "Graphene"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Auto Arm",
+            "materials": [
+                "Aluminum",
+                "Graphite"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Resource Canister",
+            "materials": [
+                "Plastic",
+                "Glass"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Fluid & Soil Canister",
+            "materials": [
+                "Plastic",
+                "Glass"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Gas Canister",
+            "materials": [
+                "Silicone",
+                "Glass"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Power Sensor",
+            "materials": [
+                "Zinc",
+                "Copper"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Storage Sensor",
+            "materials": [
+                "Zinc",
+                "Quartz"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Battery Sensor",
+            "materials": [
+                "Zinc",
+                "Graphite"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Button Repeater",
+            "materials": [
+                "Zinc"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Proximity Repeater",
+            "materials": [
+                "Zinc"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Delay Repeater",
+            "materials": [
+                "Zinc"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Count Repeater",
+            "materials": [
+                "Zinc"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Power Extenders",
+            "materials": [
+                "Copper"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Power Switch",
+            "materials": [
+                "Copper"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Splitter",
+            "materials": [
+                "Copper",
+                "Graphite"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Generator",
+            "materials": [
+                "Aluminum",
+                "Tungsten"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Solar Panel",
+            "materials": [
+                "Copper",
+                "Glass"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Wind Turbine",
+            "materials": [
+                "Aluminum",
+                "Ceramic"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Battery",
+            "materials": [
+                "Lithium",
+                "Zinc"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "RTG",
+            "materials": [
+                "Nanocarbon Alloy",
+                "Lithium"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Platform A",
+            "materials": [
+                "Resin"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Platform B",
+            "materials": [
+                "Resin",
+                "Resin"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Platform C",
+            "materials": [
+                "Resin"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Tall Platform",
+            "materials": [
+                "Ceramic"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium T-Platform",
+            "materials": [
+                "Resin",
+                "Resin"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Storage",
+            "materials": [
+                "Resin",
+                "Resin"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Storage Silo",
+            "materials": [
+                "Titanium",
+                "Titanium"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Tall Storage",
+            "materials": [
+                "Ceramic"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Rover Seat",
+            "materials": [
+                "Compound",
+                "Compound"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Tractor",
+            "materials": [
+                "Aluminum",
+                "Aluminum"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Trailer",
+            "materials": [
+                "Compound",
+                "Aluminum"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Buggy Horn",
+            "materials": [
+                "Plastic",
+                "Rubber"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Winch",
+            "materials": [
+                "EXO Chip",
+                "Rubber"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Paver",
+            "materials": [
+                "Aluminum Alloy",
+                "Silicone"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Drill Strength 1",
+            "materials": [
+                "Tungsten Carbide",
+                "Ceramic"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Drill Strength 2",
+            "materials": [
+                "Titanium Alloy",
+                "Tungsten Carbide"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Drill Strength 3",
+            "materials": [
+                "Diamond",
+                "Titanium Alloy"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Solid-Fuel Thruster",
+            "materials": [
+                "Aluminum",
+                "Ammonium"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Hydrazine Thruster",
+            "materials": [
+                "EXO Chip",
+                "Steel"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Rail Post Bundle",
+            "materials": [
+                "Resin",
+                "Aluminum"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Tall Rail Post Bundle",
+            "materials": [
+                "Resin",
+                "Aluminum"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Rail Junction Bundle",
+            "materials": [
+                "Aluminum",
+                "Aluminum"
+            ],
+            "station": "Small Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Printer",
+            "materials": [
+                "Compound",
+                "Compound",
+                "Compound"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Smelting Furnace",
+            "materials": [
+                "Compound",
+                "Resin",
+                "Resin"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Soil Centrifuge",
+            "materials": [
+                "Compound",
+                "Compound",
+                "Aluminum"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Chemistry Lab",
+            "materials": [
+                "Ceramic",
+                "Glass",
+                "Tungsten"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Atmospheric Condenser",
+            "materials": [
+                "Plastic",
+                "Glass",
+                "Iron"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Research Chamber",
+            "materials": [
+                "Compound",
+                "Compound",
+                "Resin"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "EXO Request Platform",
+            "materials": [
+                "Resin",
+                "Resin",
+                "Ceramic"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Trade Platform",
+            "materials": [
+                "Iron",
+                "Tungsten",
+                "EXO Chip"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Shredder",
+            "materials": [
+                "Tungsten Carbide",
+                "Iron",
+                "EXO Chip"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Solar Panel",
+            "materials": [
+                "Aluminum Alloy",
+                "Glass",
+                "Copper"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Wind Turbine",
+            "materials": [
+                "Aluminum Alloy",
+                "Glass",
+                "Ceramic"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Platform A",
+            "materials": [
+                "Resin",
+                "Resin"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Platform B",
+            "materials": [
+                "Resin",
+                "Resin",
+                "Resin"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Platform C",
+            "materials": [
+                "Resin",
+                "Ceramic",
+                "Iron"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large T-Platform",
+            "materials": [
+                "Aluminum",
+                "Aluminum",
+                "Resin"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Curved Platform",
+            "materials": [
+                "Compound",
+                "Ceramic",
+                "Ceramic"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Extended Platform",
+            "materials": [
+                "Resin",
+                "Resin"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Resource Canister",
+            "materials": [
+                "Glass",
+                "Titanium",
+                "Nanocarbon Alloy"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Storage",
+            "materials": [
+                "Ceramic",
+                "Ceramic",
+                "Ceramic"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Storage Silo A",
+            "materials": [
+                "Aluminum",
+                "Aluminum",
+                "Steel"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Storage Silo B",
+            "materials": [
+                "Steel",
+                "Steel",
+                "Steel"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Active Storage",
+            "materials": [
+                "Zinc",
+                "Aluminum",
+                "Resin"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Buggy",
+            "materials": [
+                "Compound",
+                "Aluminum"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Rover Seat",
+            "materials": [
+                "Plastic",
+                "Plastic",
+                "Compound"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Rover",
+            "materials": [
+                "Plastic",
+                "Plastic",
+                "Rubber"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "VTOL",
+            "materials": [
+                "Tungsten Carbide",
+                "Silicone",
+                "EXO Chip"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Crane",
+            "materials": [
+                "Steel",
+                "Silicone",
+                "Titanium"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Fog Horn",
+            "materials": [
+                "Plastic",
+                "Rubber",
+                "Steel"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Rail Engine",
+            "materials": [
+                "Resin",
+                "Aluminum",
+                "Copper"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Rail Car",
+            "materials": [
+                "Resin",
+                "Resin",
+                "Aluminum"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Recreational Sphere",
+            "materials": [
+                "Aluminum Alloy",
+                "Rubber"
+            ],
+            "station": "Medium Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Shelter",
+            "materials": [
+                "Plastic",
+                "Plastic",
+                "Silicone",
+                "Silicone"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Auto Extractor",
+            "materials": [
+                "Tungsten Carbide",
+                "Rubber",
+                "Steel",
+                "EXO Chip"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Extra Large Shredder",
+            "materials": [
+                "Tungsten Carbide",
+                "Steel",
+                "EXO Chip",
+                "EXO Chip"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Solar Array",
+            "materials": [
+                "Copper",
+                "Glass",
+                "Graphene",
+                "Aluminum Alloy"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "XL Wind Turbine",
+            "materials": [
+                "Iron",
+                "Ceramic",
+                "Graphene",
+                "Aluminum Alloy"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Sensor Arch",
+            "materials": [
+                "Zinc",
+                "Quartz"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "XL Sensor Arch",
+            "materials": [
+                "Zinc",
+                "Zinc",
+                "Quartz",
+                "Quartz"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "XL Sensor Canopy",
+            "materials": [
+                "Zinc",
+                "Zinc",
+                "Quartz",
+                "Quartz"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Sensor Ring",
+            "materials": [
+                "Zinc",
+                "Quartz"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Sensor Hoop A",
+            "materials": [
+                "Zinc",
+                "Quartz",
+                "Quartz"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Sensor Hoop B",
+            "materials": [
+                "Zinc",
+                "Zinc",
+                "Quartz"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "XL Sensor Hoop A",
+            "materials": [
+                "Zinc",
+                "Zinc",
+                "Quartz",
+                "Quartz"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "XL Sensor Hoop B",
+            "materials": [
+                "Zinc",
+                "Zinc",
+                "Zinc",
+                "Quartz"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Extra Large Platform A",
+            "materials": [
+                "Iron",
+                "Iron",
+                "Ceramic",
+                "Ceramic"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Extra Large Platform B",
+            "materials": [
+                "Iron",
+                "Iron",
+                "Iron",
+                "Iron"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Extra Large Platform C",
+            "materials": [
+                "Resin",
+                "Resin",
+                "Iron",
+                "Iron"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Extra Large Curved Platform",
+            "materials": [
+                "Ceramic",
+                "Ceramic",
+                "Compound",
+                "Compound"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "XL Extended Platform",
+            "materials": [
+                "Resin",
+                "Resin",
+                "Resin"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Figurine Platform",
+            "materials": [
+                "Iron",
+                "Iron",
+                "Iron",
+                "Iron"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Extra Large Storage",
+            "materials": [
+                "Iron",
+                "Iron",
+                "Ceramic",
+                "Ceramic"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Rover",
+            "materials": [
+                "Aluminum Alloy",
+                "Rubber",
+                "EXO Chip",
+                "EXO Chip"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Landing Pad",
+            "materials": [
+                "Aluminum",
+                "Ceramic",
+                "Ceramic"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Small Shuttle",
+            "materials": [
+                "Aluminum",
+                "Aluminum"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Medium Shuttle",
+            "materials": [
+                "Aluminum Alloy",
+                "Ceramic",
+                "Ceramic"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Large Shuttle",
+            "materials": [
+                "Titanium Alloy",
+                "Ceramic",
+                "EXO Chip",
+                "EXO Chip"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "Rail Station",
+            "materials": [
+                "Titanium",
+                "Titanium",
+                "Copper",
+                "Quartz"
+            ],
+            "station": "Large Printer"
+        },
+        {
+            "type": "printing",
+            "result": "PUM-KN Shelter",
+            "materials": [
+                "Carbon",
+                "Resin",
+                "Clay",
+                "Plastic"
+            ],
+            "station": "Large Printer"
+        }
+    ]
+}
