@@ -118,7 +118,7 @@ export class RecipeTable extends LitElement {
         let item = this.data.items.find(item => item.name === name);
         let filename = item?.icon ?? "Icon_Warning.png";
 
-        return html`<img src="/images/${filename}" alt=${name} title=${name} width="24" height="24">`;
+        return html`<img src="images/${filename}" alt=${name} title=${name} width="24" height="24">`;
     }
 
     makeLine(recipe) {
