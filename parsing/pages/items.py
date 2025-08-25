@@ -7,17 +7,20 @@ from helpers import get_image_name
 class ItemsParser(Parser):
     """Parser for Items page"""
 
-    printers = ['Backpack', 'Small Printer', 'Medium Printer', 'Large Printer']
+    printers = [
+        'Backpack Printer',
+        'Small Printer',
+        'Medium Printer',
+        'Large Printer'
+    ]
 
     def __init__(self, custom_url: str | None = None):
         super().__init__('Items', custom_url)
 
     def do_parse(self, soup: BeautifulSoup):
-        """Parse the Items page."""
-
         tables = soup.select('table.darktable')
 
-        items = []
+        items = {}
         recipes = []
 
         table: Tag
@@ -29,7 +32,7 @@ class ItemsParser(Parser):
             for row in rows[1:-1]:    # Skipping header and total
                 item, recipe = self.process_row(row)
 
-                items.append(item)
+                items[item['name']] = item
 
                 if recipe:
                     recipe['station'] = printer
@@ -53,16 +56,16 @@ class ItemsParser(Parser):
 
         if materials:
             recipe = {
-                'type': 'printing',
                 'result': name,
+                'type': 'printing',
                 'materials': materials,
             }
         else:
             recipe = None
 
         return {
-            'icon': icon,
             'name': name,
+            'icon': icon,
             'tier': tier,
             'unlock': unlock,
         }, recipe

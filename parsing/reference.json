@@ -2,8 +2,8 @@
  ! Not a valid json (because of comments - like this one)
  */
 {
-    "items": [
-        {
+    "items": {
+        "<name>": {
             "name": "str",
             "icon": "str",  // Filename
             "tier": "str",  // See options
@@ -45,7 +45,7 @@
             "dlc": "str"  // Maybe
 
         }
-    ],
+    },
     "recipes": [
         // TODO
     ],
@@ -71,6 +71,11 @@
             "Novus",
             "Glacio",
             "Atrox"
+        ],
+        "recipe/type": [
+            "printing",
+            "refining"
+            // TODO
         ]
     },
 
@@ -93,17 +98,18 @@
             "Special": {}       // Does not fit categories above
         },
         "Platform": {},     // Machines can be placed and used on
-        "Storage": {      // Used to store items
-            "Silo": {},     // More slots than normal
-            "Canister": {     // Stores inside, not on
-                "Resource": {}, // TODO collision! Maybe, "Item"?
-                "Gas": {},
-                "Soil": {}     // Also fluid
-            }
-        },
-
         // Performs some function when placed on a platform
         "Module": {
+            // Used to store items
+            "Storage": {
+                "Silo": {},  // More slots than normal
+                // Stores inside, not on
+                "Canister": {
+                    "Solid": {},
+                    "Gas": {},
+                    "Soil": {}  // Also fluid
+                }
+            },
             "Printer": {},   // Crafts printing recipes
             "Shredder": {},  // Shreds things into scrap
             // Generates or stores power

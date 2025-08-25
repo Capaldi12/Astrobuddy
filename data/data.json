@@ -1,1508 +1,1724 @@
 {
-    "items": [
-        {
-            "icon": "Icon_Soil.png",
+    "items": {
+        "Soil": {
             "name": "Soil",
+            "icon": "Icon_Soil.png",
             "tier": "Small",
             "tags": [
-                "Resource",
                 "Natural"
-            ]
+            ],
+            "found_on": "All"
         },
-        {
-            "icon": "Icon_Organic.png",
+        "Organic": {
             "name": "Organic",
+            "icon": "Icon_Organic.png",
             "tier": "Small",
             "tags": [
-                "Resource",
-                "Natural"
-            ]
+                "Natural",
+                "Raw"
+            ],
+            "found_on": "All"
         },
-        {
-            "icon": "Icon_Compound.png",
+        "Compound": {
             "name": "Compound",
+            "icon": "Icon_Compound.png",
             "tier": "Small",
             "tags": [
-                "Resource",
                 "Natural"
-            ]
+            ],
+            "found_on": "All"
         },
-        {
-            "icon": "Icon_Resin.png",
+        "Resin": {
             "name": "Resin",
+            "icon": "Icon_Resin.png",
             "tier": "Small",
             "tags": [
-                "Resource",
                 "Natural"
-            ]
+            ],
+            "found_on": "All"
         },
-        {
-            "icon": "Icon_Clay.png",
+        "Clay": {
             "name": "Clay",
+            "icon": "Icon_Clay.png",
             "tier": "Small",
             "tags": [
-                "Resource",
-                "Natural"
-            ]
+                "Natural",
+                "Raw"
+            ],
+            "found_on": "All"
         },
-        {
-            "icon": "Icon_Quartz.png",
+        "Quartz": {
             "name": "Quartz",
+            "icon": "Icon_Quartz.png",
             "tier": "Small",
             "tags": [
-                "Resource",
-                "Natural"
-            ]
+                "Natural",
+                "Raw"
+            ],
+            "found_on": "All"
         },
-        {
-            "icon": "Icon_Ammonium.png",
+        "Ammonium": {
             "name": "Ammonium",
+            "icon": "Icon_Ammonium.png",
             "tier": "Small",
             "tags": [
-                "Resource",
                 "Natural"
-            ]
+            ],
+            "found_on": "All"
         },
-        {
-            "icon": "Icon_Graphite.png",
+        "Graphite": {
             "name": "Graphite",
+            "icon": "Icon_Graphite.png",
             "tier": "Small",
             "tags": [
-                "Resource",
                 "Natural"
-            ]
+            ],
+            "found_on": "All"
         },
-        {
-            "icon": "Icon_Laterite.png",
+        "Laterite": {
             "name": "Laterite",
+            "icon": "Icon_Laterite.png",
             "tier": "Small",
             "tags": [
-                "Resource",
-                "Natural"
-            ]
+                "Natural",
+                "Raw"
+            ],
+            "found_on": "All"
         },
-        {
-            "icon": "Icon_Astronium.png",
+        "Astronium": {
             "name": "Astronium",
+            "icon": "Icon_Astronium.png",
             "tier": "Small",
             "tags": [
-                "Resource",
                 "Natural"
+            ],
+            "found_on": "All"
+        },
+        "Sphalerite": {
+            "name": "Sphalerite",
+            "icon": "Icon_Sphalerite.png",
+            "tier": "Small",
+            "tags": [
+                "Natural",
+                "Raw"
+            ],
+            "found_on": [
+                "Sylva",
+                "Desolo"
             ]
         },
-        {
-            "icon": "Icon_Tier_Medium.png",
+        "Wolframite": {
+            "name": "Wolframite",
+            "icon": "Icon_Wolframite.png",
+            "tier": "Small",
+            "tags": [
+                "Natural",
+                "Raw"
+            ],
+            "found_on": [
+                "Desolo",
+                "Calidor"
+            ]
+        },
+        "Malachite": {
+            "name": "Malachite",
+            "icon": "Icon_Malachite.png",
+            "tier": "Small",
+            "tags": [
+                "Natural",
+                "Raw"
+            ],
+            "found_on": [
+                "Sylva",
+                "Calidor"
+            ]
+        },
+        "Lithium": {
+            "name": "Lithium",
+            "icon": "Icon_Lithium.png",
+            "tier": "Small",
+            "tags": [
+                "Natural"
+            ],
+            "found_on": [
+                "Vesania",
+                "Novus"
+            ]
+        },
+        "Hematite": {
+            "name": "Hematite",
+            "icon": "Icon_Hematite.png",
+            "tier": "Small",
+            "tags": [
+                "Natural",
+                "Raw"
+            ],
+            "found_on": [
+                "Novus",
+                "Glacio"
+            ]
+        },
+        "Titanite": {
+            "name": "Titanite",
+            "icon": "Icon_Titanite.png",
+            "tier": "Small",
+            "tags": [
+                "Natural",
+                "Raw"
+            ],
+            "found_on": [
+                "Vesania",
+                "Glacio"
+            ]
+        },
+        "Carbon": {
+            "name": "Carbon",
+            "icon": "Icon_Carbon.png",
+            "tier": "Small",
+            "tags": [
+                "Refined"
+            ]
+        },
+        "Ceramic": {
+            "name": "Ceramic",
+            "icon": "Icon_Ceramic.png",
+            "tier": "Small",
+            "tags": [
+                "Refined"
+            ]
+        },
+        "Glass": {
+            "name": "Glass",
+            "icon": "Icon_Glass.png",
+            "tier": "Small",
+            "tags": [
+                "Refined"
+            ]
+        },
+        "Aluminum": {
+            "name": "Aluminum",
+            "icon": "Icon_Aluminum.png",
+            "tier": "Small",
+            "tags": [
+                "Refined"
+            ]
+        },
+        "Zinc": {
+            "name": "Zinc",
+            "icon": "Icon_Zinc.png",
+            "tier": "Small",
+            "tags": [
+                "Refined"
+            ]
+        },
+        "Copper": {
+            "name": "Copper",
+            "icon": "Icon_Copper.png",
+            "tier": "Small",
+            "tags": [
+                "Refined"
+            ]
+        },
+        "Tungsten": {
+            "name": "Tungsten",
+            "icon": "Icon_Tungsten.png",
+            "tier": "Small",
+            "tags": [
+                "Refined"
+            ]
+        },
+        "Iron": {
+            "name": "Iron",
+            "icon": "Icon_Iron.png",
+            "tier": "Small",
+            "tags": [
+                "Refined"
+            ]
+        },
+        "Titanium": {
+            "name": "Titanium",
+            "icon": "Icon_Titanium.png",
+            "tier": "Small",
+            "tags": [
+                "Refined"
+            ]
+        },
+        "Small Printer": {
             "name": "Small Printer",
+            "icon": "Icon_Tier_Medium.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 0
             }
         },
-        {
-            "icon": "Icon_Packager.png",
+        "Packager": {
             "name": "Packager",
+            "icon": "Icon_Packager.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Leveling_Block.png",
+        "Leveling Block": {
             "name": "Leveling Block",
+            "icon": "Icon_Leveling_Block.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 500
             }
         },
-        {
-            "icon": "Icon_Tether.png",
+        "Tethers": {
             "name": "Tethers",
+            "icon": "Icon_Tether.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 0
             }
         },
-        {
-            "icon": "Icon_Oxygen_Tank.png",
+        "Oxygen Filters": {
             "name": "Oxygen Filters",
+            "icon": "Icon_Oxygen_Tank.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 0
             }
         },
-        {
-            "icon": "Icon_Oxygen_Tank.png",
+        "Oxygen Tank": {
             "name": "Oxygen Tank",
+            "icon": "Icon_Oxygen_Tank.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 2000
             }
         },
-        {
-            "icon": "Icon_Oxygenator.png",
+        "Portable Oxygenator": {
             "name": "Portable Oxygenator",
+            "icon": "Icon_Oxygenator.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 10000
             }
         },
-        {
-            "icon": "Icon_Canister.png",
+        "Small Canister": {
             "name": "Small Canister",
+            "icon": "Icon_Canister.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 0
             }
         },
-        {
-            "icon": "Icon_Beacon.png",
+        "Beacon": {
             "name": "Beacon",
+            "icon": "Icon_Beacon.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 0
             }
         },
-        {
-            "icon": "Icon_Worklight.png",
+        "Worklight": {
             "name": "Worklight",
+            "icon": "Icon_Worklight.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 0
             }
         },
-        {
-            "icon": "Icon_Worklight.png",
+        "Glowsticks": {
             "name": "Glowsticks",
+            "icon": "Icon_Worklight.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 350
             }
         },
-        {
-            "icon": "Icon_Worklight.png",
+        "Floodlight": {
             "name": "Floodlight",
+            "icon": "Icon_Worklight.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 2000
             }
         },
-        {
-            "icon": "Icon_Generator.png",
+        "Small Generator": {
             "name": "Small Generator",
+            "icon": "Icon_Generator.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 0
             }
         },
-        {
-            "icon": "Icon_Power_Cells.png",
+        "Power Cells": {
             "name": "Power Cells",
+            "icon": "Icon_Power_Cells.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 800
             }
         },
-        {
-            "icon": "Icon_Solar_Panel.png",
+        "Small Solar": {
             "name": "Small Solar",
+            "icon": "Icon_Solar_Panel.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 300
             }
         },
-        {
-            "icon": "Icon_Wind_Turbine.png",
+        "Small Wind Turbine": {
             "name": "Small Wind Turbine",
+            "icon": "Icon_Wind_Turbine.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 300
             }
         },
-        {
-            "icon": "Icon_Battery.png",
+        "Small Battery": {
             "name": "Small Battery",
+            "icon": "Icon_Battery.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 2000
             }
         },
-        {
-            "icon": "Icon_Augment.png",
+        "Boost Mod": {
             "name": "Boost Mod",
+            "icon": "Icon_Augment.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Augment.png",
+        "Wide Mod": {
             "name": "Wide Mod",
+            "icon": "Icon_Augment.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Augment.png",
+        "Narrow Mod": {
             "name": "Narrow Mod",
+            "icon": "Icon_Augment.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Augment.png",
+        "Inhibitor Mod": {
             "name": "Inhibitor Mod",
+            "icon": "Icon_Augment.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Augment.png",
+        "Alignment Mod": {
             "name": "Alignment Mod",
+            "icon": "Icon_Augment.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Augment.png",
+        "Drill Mod 1": {
             "name": "Drill Mod 1",
+            "icon": "Icon_Augment.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Augment.png",
+        "Drill Mod 2": {
             "name": "Drill Mod 2",
-            "tier": "Small",
-            "unlock": {
-                "bytes": 2500
-            }
-        },
-        {
             "icon": "Icon_Augment.png",
-            "name": "Drill Mod 3",
-            "tier": "Small",
-            "unlock": {
-                "bytes": 3750
-            }
-        },
-        {
-            "icon": "Icon_Dynamite.png",
-            "name": "Dynamite",
-            "tier": "Small",
-            "unlock": {
-                "bytes": 3750
-            }
-        },
-        {
-            "icon": "Icon_Fireworks.png",
-            "name": "Fireworks",
-            "tier": "Small",
-            "unlock": {
-                "bytes": 3750
-            }
-        },
-        {
-            "icon": "Icon_Small_Camera.png",
-            "name": "Small Camera",
             "tier": "Small",
             "unlock": {
                 "bytes": 2500
             }
         },
-        {
-            "icon": "Icon_Horn.png",
+        "Drill Mod 3": {
+            "name": "Drill Mod 3",
+            "icon": "Icon_Augment.png",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 3750
+            }
+        },
+        "Dynamite": {
+            "name": "Dynamite",
+            "icon": "Icon_Dynamite.png",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 3750
+            }
+        },
+        "Fireworks": {
+            "name": "Fireworks",
+            "icon": "Icon_Fireworks.png",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 3750
+            }
+        },
+        "Small Camera": {
+            "name": "Small Camera",
+            "icon": "Icon_Small_Camera.png",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 2500
+            }
+        },
+        "Small Trumpet Horn": {
             "name": "Small Trumpet Horn",
+            "icon": "Icon_Horn.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Horn.png",
+        "Small Squeaker Horn": {
             "name": "Small Squeaker Horn",
+            "icon": "Icon_Horn.png",
             "tier": "Small",
             "unlock": null
         },
-        {
-            "icon": "Icon_Figurine.png",
+        "Holographic Figurine": {
             "name": "Holographic Figurine",
+            "icon": "Icon_Figurine.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 3000
             }
         },
-        {
-            "icon": "Icon_Figurine.png",
+        "Stone Figurine": {
             "name": "Stone Figurine",
+            "icon": "Icon_Figurine.png",
             "tier": "Small",
             "unlock": null
         },
-        {
-            "icon": "Icon_Augment.png",
+        "Terrain Analyzer": {
             "name": "Terrain Analyzer",
+            "icon": "Icon_Augment.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 2000
             }
         },
-        {
-            "icon": "Icon_Probe_Scanner.png",
+        "Probe Scanner": {
             "name": "Probe Scanner",
+            "icon": "Icon_Probe_Scanner.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 4000
             }
         },
-        {
-            "icon": "Icon_Thruster.png",
+        "Solid-Fuel Jump Jet": {
             "name": "Solid-Fuel Jump Jet",
+            "icon": "Icon_Thruster.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 5000
             }
         },
-        {
-            "icon": "Icon_Thruster.png",
+        "Hydrazine Jet Pack": {
             "name": "Hydrazine Jet Pack",
+            "icon": "Icon_Thruster.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 15000
             }
         },
-        {
-            "icon": "Icon_Hoverboard.png",
+        "Hoverboard": {
             "name": "Hoverboard",
+            "icon": "Icon_Hoverboard.png",
             "tier": "Small",
             "unlock": {
                 "mission": "Unlocked by Missions"
             }
         },
-        {
-            "icon": "Icon_Generator.png",
+        "QT-RTG": {
             "name": "QT-RTG",
+            "icon": "Icon_Generator.png",
             "tier": "Small",
             "unlock": null
         },
-        {
-            "icon": "Icon_Tier_Large.png",
+        "Medium Printer": {
             "name": "Medium Printer",
+            "icon": "Icon_Tier_Large.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 0
             }
         },
-        {
-            "icon": "Icon_Oxygenator.png",
+        "Oxygenator": {
             "name": "Oxygenator",
+            "icon": "Icon_Oxygenator.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 1800
             }
         },
-        {
-            "icon": "Icon_Shredder.png",
+        "Medium Shredder": {
             "name": "Medium Shredder",
+            "icon": "Icon_Shredder.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 1250
             }
         },
-        {
-            "icon": "Icon_Shelter.png",
+        "Field Shelter": {
             "name": "Field Shelter",
+            "icon": "Icon_Shelter.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 8000
             }
         },
-        {
-            "icon": "Icon_Crane.png",
+        "Auto Arm": {
             "name": "Auto Arm",
+            "icon": "Icon_Crane.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 1500
             }
         },
-        {
-            "icon": "Icon_Canister.png",
+        "Medium Resource Canister": {
             "name": "Medium Resource Canister",
+            "icon": "Icon_Canister.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 2000
             }
         },
-        {
-            "icon": "Icon_Canister.png",
+        "Medium Fluid & Soil Canister": {
             "name": "Medium Fluid & Soil Canister",
+            "icon": "Icon_Canister.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 2500
             }
         },
-        {
-            "icon": "Icon_Canister.png",
+        "Medium Gas Canister": {
             "name": "Medium Gas Canister",
+            "icon": "Icon_Canister.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 4000
             }
         },
-        {
-            "icon": "Icon_Sensor.png",
+        "Power Sensor": {
             "name": "Power Sensor",
+            "icon": "Icon_Sensor.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 500
             }
         },
-        {
-            "icon": "Icon_Sensor.png",
+        "Storage Sensor": {
             "name": "Storage Sensor",
+            "icon": "Icon_Sensor.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 750
             }
         },
-        {
-            "icon": "Icon_Sensor.png",
+        "Battery Sensor": {
             "name": "Battery Sensor",
+            "icon": "Icon_Sensor.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 750
             }
         },
-        {
-            "icon": "Icon_Sensor.png",
+        "Button Repeater": {
             "name": "Button Repeater",
+            "icon": "Icon_Sensor.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 300
             }
         },
-        {
-            "icon": "Icon_Sensor.png",
+        "Proximity Repeater": {
             "name": "Proximity Repeater",
+            "icon": "Icon_Sensor.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 700
             }
         },
-        {
-            "icon": "Icon_Sensor.png",
+        "Delay Repeater": {
             "name": "Delay Repeater",
-            "tier": "Small",
-            "unlock": {
-                "bytes": 1000
-            }
-        },
-        {
             "icon": "Icon_Sensor.png",
-            "name": "Count Repeater",
             "tier": "Small",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Power_Extenders.png",
+        "Count Repeater": {
+            "name": "Count Repeater",
+            "icon": "Icon_Sensor.png",
+            "tier": "Small",
+            "unlock": {
+                "bytes": 1000
+            }
+        },
+        "Power Extenders": {
             "name": "Power Extenders",
+            "icon": "Icon_Power_Extenders.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 500
             }
         },
-        {
-            "icon": "Icon_Splitter.png",
+        "Power Switch": {
             "name": "Power Switch",
+            "icon": "Icon_Splitter.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 750
             }
         },
-        {
-            "icon": "Icon_Splitter.png",
+        "Splitter": {
             "name": "Splitter",
+            "icon": "Icon_Splitter.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Generator.png",
+        "Medium Generator": {
             "name": "Medium Generator",
+            "icon": "Icon_Generator.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 2000
             }
         },
-        {
-            "icon": "Icon_Solar_Panel.png",
+        "Medium Solar Panel": {
             "name": "Medium Solar Panel",
+            "icon": "Icon_Solar_Panel.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 2000
             }
         },
-        {
-            "icon": "Icon_Wind_Turbine.png",
+        "Medium Wind Turbine": {
             "name": "Medium Wind Turbine",
+            "icon": "Icon_Wind_Turbine.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 2500
             }
         },
-        {
-            "icon": "Icon_Battery.png",
+        "Medium Battery": {
             "name": "Medium Battery",
+            "icon": "Icon_Battery.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 3750
             }
         },
-        {
-            "icon": "Icon_Generator.png",
+        "RTG": {
             "name": "RTG",
+            "icon": "Icon_Generator.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 12500
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "Medium Platform A": {
             "name": "Medium Platform A",
+            "icon": "Icon_Platforms.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 0
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "Medium Platform B": {
             "name": "Medium Platform B",
+            "icon": "Icon_Platforms.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 250
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "Medium Platform C": {
             "name": "Medium Platform C",
+            "icon": "Icon_Platforms.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 400
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "Tall Platform": {
             "name": "Tall Platform",
+            "icon": "Icon_Platforms.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 750
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "Medium T-Platform": {
             "name": "Medium T-Platform",
+            "icon": "Icon_Platforms.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 400
             }
         },
-        {
-            "icon": "Icon_Storage.png",
+        "Medium Storage": {
             "name": "Medium Storage",
+            "icon": "Icon_Storage.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 0
             }
         },
-        {
-            "icon": "Icon_Storage.png",
+        "Medium Storage Silo": {
             "name": "Medium Storage Silo",
+            "icon": "Icon_Storage.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 3000
             }
         },
-        {
-            "icon": "Icon_Storage.png",
+        "Tall Storage": {
             "name": "Tall Storage",
+            "icon": "Icon_Storage.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 400
             }
         },
-        {
-            "icon": "Icon_Rover_Seat.png",
+        "Rover Seat": {
             "name": "Rover Seat",
+            "icon": "Icon_Rover_Seat.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 0
             }
         },
-        {
-            "icon": "Icon_Rover.png",
+        "Tractor": {
             "name": "Tractor",
+            "icon": "Icon_Rover.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Rover.png",
+        "Trailer": {
             "name": "Trailer",
+            "icon": "Icon_Rover.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 1500
             }
         },
-        {
-            "icon": "Icon_Horn.png",
+        "Medium Buggy Horn": {
             "name": "Medium Buggy Horn",
+            "icon": "Icon_Horn.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 2000
             }
         },
-        {
-            "icon": "Icon_Winch.png",
+        "Winch": {
             "name": "Winch",
+            "icon": "Icon_Winch.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 3750
             }
         },
-        {
-            "icon": "Icon_Paver.png",
+        "Paver": {
             "name": "Paver",
+            "icon": "Icon_Paver.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 5000
             }
         },
-        {
-            "icon": "Icon_Drill.png",
+        "Drill Strength 1": {
             "name": "Drill Strength 1",
+            "icon": "Icon_Drill.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 2500
             }
         },
-        {
-            "icon": "Icon_Drill.png",
+        "Drill Strength 2": {
             "name": "Drill Strength 2",
+            "icon": "Icon_Drill.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 5000
             }
         },
-        {
-            "icon": "Icon_Drill.png",
+        "Drill Strength 3": {
             "name": "Drill Strength 3",
+            "icon": "Icon_Drill.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 7500
             }
         },
-        {
-            "icon": "Icon_Thruster.png",
+        "Solid-Fuel Thruster": {
             "name": "Solid-Fuel Thruster",
+            "icon": "Icon_Thruster.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 500
             }
         },
-        {
-            "icon": "Icon_Thruster.png",
+        "Hydrazine Thruster": {
             "name": "Hydrazine Thruster",
+            "icon": "Icon_Thruster.png",
             "tier": "Medium",
             "unlock": {
                 "bytes": 3750
             }
         },
-        {
-            "icon": "Icon_Rail_Post.png",
+        "Rail Post Bundle": {
             "name": "Rail Post Bundle",
+            "icon": "Icon_Rail_Post.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 750
             }
         },
-        {
-            "icon": "Icon_Rail_Post.png",
+        "Tall Rail Post Bundle": {
             "name": "Tall Rail Post Bundle",
+            "icon": "Icon_Rail_Post.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 750
             }
         },
-        {
-            "icon": "Icon_Rail_Post.png",
+        "Rail Junction Bundle": {
             "name": "Rail Junction Bundle",
+            "icon": "Icon_Rail_Post.png",
             "tier": "Small",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Tier_Extra_Large.png",
+        "Large Printer": {
             "name": "Large Printer",
+            "icon": "Icon_Tier_Extra_Large.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 0
             }
         },
-        {
-            "icon": "Icon_Smelting_Furnace.png",
+        "Smelting Furnace": {
             "name": "Smelting Furnace",
+            "icon": "Icon_Smelting_Furnace.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 250
             }
         },
-        {
-            "icon": "Icon_Soil_Centrifuge.png",
+        "Soil Centrifuge": {
             "name": "Soil Centrifuge",
+            "icon": "Icon_Soil_Centrifuge.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 750
             }
         },
-        {
-            "icon": "Icon_Chemistry_Lab.png",
+        "Chemistry Lab": {
             "name": "Chemistry Lab",
+            "icon": "Icon_Chemistry_Lab.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 1600
             }
         },
-        {
-            "icon": "Icon_Atmospheric_Condenser.png",
+        "Atmospheric Condenser": {
             "name": "Atmospheric Condenser",
+            "icon": "Icon_Atmospheric_Condenser.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 2200
             }
         },
-        {
-            "icon": "Icon_Research.png",
+        "Research Chamber": {
             "name": "Research Chamber",
+            "icon": "Icon_Research.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 0
             }
         },
-        {
-            "icon": "Icon_Trade_Platform.png",
+        "EXO Request Platform": {
             "name": "EXO Request Platform",
+            "icon": "Icon_Trade_Platform.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 0
             }
         },
-        {
-            "icon": "Icon_Trade_Platform.png",
+        "Trade Platform": {
             "name": "Trade Platform",
+            "icon": "Icon_Trade_Platform.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 2500
             }
         },
-        {
-            "icon": "Icon_Shredder.png",
+        "Large Shredder": {
             "name": "Large Shredder",
+            "icon": "Icon_Shredder.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 2500
             }
         },
-        {
-            "icon": "Icon_Solar_Panel.png",
+        "Large Solar Panel": {
             "name": "Large Solar Panel",
+            "icon": "Icon_Solar_Panel.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 4000
             }
         },
-        {
-            "icon": "Icon_Wind_Turbine.png",
+        "Large Wind Turbine": {
             "name": "Large Wind Turbine",
+            "icon": "Icon_Wind_Turbine.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 3500
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "Large Platform A": {
             "name": "Large Platform A",
+            "icon": "Icon_Platforms.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 0
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "Large Platform B": {
             "name": "Large Platform B",
+            "icon": "Icon_Platforms.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 500
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "Large Platform C": {
             "name": "Large Platform C",
+            "icon": "Icon_Platforms.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "Large T-Platform": {
             "name": "Large T-Platform",
+            "icon": "Icon_Platforms.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "Large Curved Platform": {
             "name": "Large Curved Platform",
+            "icon": "Icon_Platforms.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "Large Extended Platform": {
             "name": "Large Extended Platform",
+            "icon": "Icon_Platforms.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 500
             }
         },
-        {
-            "icon": "Icon_Canister.png",
+        "Large Resource Canister": {
             "name": "Large Resource Canister",
+            "icon": "Icon_Canister.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 5000
             }
         },
-        {
-            "icon": "Icon_Storage.png",
+        "Large Storage": {
             "name": "Large Storage",
+            "icon": "Icon_Storage.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 2000
             }
         },
-        {
-            "icon": "Icon_Storage.png",
+        "Large Storage Silo A": {
             "name": "Large Storage Silo A",
+            "icon": "Icon_Storage.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 5000
             }
         },
-        {
-            "icon": "Icon_Storage.png",
+        "Large Storage Silo B": {
             "name": "Large Storage Silo B",
+            "icon": "Icon_Storage.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 7500
             }
         },
-        {
-            "icon": "Icon_Storage.png",
+        "Large Active Storage": {
             "name": "Large Active Storage",
+            "icon": "Icon_Storage.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 2000
             }
         },
-        {
-            "icon": "Icon_Rover.png",
+        "Buggy": {
             "name": "Buggy",
+            "icon": "Icon_Rover.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 1500
             }
         },
-        {
-            "icon": "Icon_Rover_Seat.png",
+        "Large Rover Seat": {
             "name": "Large Rover Seat",
+            "icon": "Icon_Rover_Seat.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 2000
             }
         },
-        {
-            "icon": "Icon_Rover.png",
+        "Medium Rover": {
             "name": "Medium Rover",
+            "icon": "Icon_Rover.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 3750
             }
         },
-        {
-            "icon": "Icon_VTOL.png",
+        "VTOL": {
             "name": "VTOL",
+            "icon": "Icon_VTOL.png",
             "tier": "Large",
             "unlock": {
                 "mission": "Unlocked by Missions"
             }
         },
-        {
-            "icon": "Icon_Crane.png",
+        "Crane": {
             "name": "Crane",
+            "icon": "Icon_Crane.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 4500
             }
         },
-        {
-            "icon": "Icon_Horn.png",
+        "Large Fog Horn": {
             "name": "Large Fog Horn",
+            "icon": "Icon_Horn.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 4000
             }
         },
-        {
-            "icon": "Icon_Horn.png",
+        "Large Starship Horn": {
             "name": "Large Starship Horn",
+            "icon": "Icon_Horn.png",
             "tier": "Large",
             "unlock": null
         },
-        {
-            "icon": "Icon_Rail_Engine.png",
+        "Rail Engine": {
             "name": "Rail Engine",
+            "icon": "Icon_Rail_Engine.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Rail_Engine.png",
+        "Rail Car": {
             "name": "Rail Car",
+            "icon": "Icon_Rail_Engine.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 1500
             }
         },
-        {
-            "icon": "Icon_Recreational_Sphere.png",
+        "Recreational Sphere": {
             "name": "Recreational Sphere",
+            "icon": "Icon_Recreational_Sphere.png",
             "tier": "Large",
             "unlock": {
                 "bytes": 4500
             }
         },
-        {
-            "icon": "Icon_Shelter.png",
+        "Shelter": {
             "name": "Shelter",
+            "icon": "Icon_Shelter.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 0
             }
         },
-        {
-            "icon": "Icon_Auto_Extractor.png",
+        "Auto Extractor": {
             "name": "Auto Extractor",
+            "icon": "Icon_Auto_Extractor.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 7500
             }
         },
-        {
-            "icon": "Icon_Shredder.png",
+        "Extra Large Shredder": {
             "name": "Extra Large Shredder",
+            "icon": "Icon_Shredder.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 5000
             }
         },
-        {
-            "icon": "Icon_Solar_Panel.png",
+        "Solar Array": {
             "name": "Solar Array",
+            "icon": "Icon_Solar_Panel.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 6000
             }
         },
-        {
-            "icon": "Icon_Wind_Turbine.png",
+        "XL Wind Turbine": {
             "name": "XL Wind Turbine",
+            "icon": "Icon_Wind_Turbine.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 4500
             }
         },
-        {
-            "icon": "Icon_Sensor.png",
+        "Medium Sensor Arch": {
             "name": "Medium Sensor Arch",
+            "icon": "Icon_Sensor.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 500
             }
         },
-        {
-            "icon": "Icon_Sensor.png",
+        "XL Sensor Arch": {
             "name": "XL Sensor Arch",
+            "icon": "Icon_Sensor.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Sensor.png",
+        "XL Sensor Canopy": {
             "name": "XL Sensor Canopy",
+            "icon": "Icon_Sensor.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Sensor.png",
+        "Large Sensor Ring": {
             "name": "Large Sensor Ring",
+            "icon": "Icon_Sensor.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 500
             }
         },
-        {
-            "icon": "Icon_Sensor.png",
+        "Large Sensor Hoop A": {
             "name": "Large Sensor Hoop A",
+            "icon": "Icon_Sensor.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 750
             }
         },
-        {
-            "icon": "Icon_Sensor.png",
+        "Large Sensor Hoop B": {
             "name": "Large Sensor Hoop B",
+            "icon": "Icon_Sensor.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 750
             }
         },
-        {
-            "icon": "Icon_Sensor.png",
+        "XL Sensor Hoop A": {
             "name": "XL Sensor Hoop A",
+            "icon": "Icon_Sensor.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 750
             }
         },
-        {
-            "icon": "Icon_Sensor.png",
+        "XL Sensor Hoop B": {
             "name": "XL Sensor Hoop B",
+            "icon": "Icon_Sensor.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 1000
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "Extra Large Platform A": {
             "name": "Extra Large Platform A",
+            "icon": "Icon_Platforms.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 2000
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "Extra Large Platform B": {
             "name": "Extra Large Platform B",
+            "icon": "Icon_Platforms.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 3000
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "Extra Large Platform C": {
             "name": "Extra Large Platform C",
+            "icon": "Icon_Platforms.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 2000
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "Extra Large Curved Platform": {
             "name": "Extra Large Curved Platform",
+            "icon": "Icon_Platforms.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 2000
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "XL Extended Platform": {
             "name": "XL Extended Platform",
+            "icon": "Icon_Platforms.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 750
             }
         },
-        {
-            "icon": "Icon_Platforms.png",
+        "Figurine Platform": {
             "name": "Figurine Platform",
+            "icon": "Icon_Platforms.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 3000
             }
         },
-        {
-            "icon": "Icon_Storage.png",
+        "Extra Large Storage": {
             "name": "Extra Large Storage",
+            "icon": "Icon_Storage.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 2000
             }
         },
-        {
-            "icon": "Icon_Rover.png",
+        "Large Rover": {
             "name": "Large Rover",
+            "icon": "Icon_Rover.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 5000
             }
         },
-        {
-            "icon": "Icon_Landing_Pad.png",
+        "Landing Pad": {
             "name": "Landing Pad",
+            "icon": "Icon_Landing_Pad.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 750
             }
         },
-        {
-            "icon": "Icon_Shuttle.png",
+        "Small Shuttle": {
             "name": "Small Shuttle",
+            "icon": "Icon_Shuttle.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 1500
             }
         },
-        {
-            "icon": "Icon_Shuttle.png",
+        "Medium Shuttle": {
             "name": "Medium Shuttle",
+            "icon": "Icon_Shuttle.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 3750
             }
         },
-        {
-            "icon": "Icon_Shuttle.png",
+        "Large Shuttle": {
             "name": "Large Shuttle",
+            "icon": "Icon_Shuttle.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 5000
             }
         },
-        {
-            "icon": "Icon_Rail_Station.png",
+        "Rail Station": {
             "name": "Rail Station",
+            "icon": "Icon_Rail_Station.png",
             "tier": "Extra Large",
             "unlock": {
                 "bytes": 2500
             }
         },
-        {
-            "icon": "Icon_Shelter.png",
+        "PUM-KN Shelter": {
             "name": "PUM-KN Shelter",
+            "icon": "Icon_Shelter.png",
             "tier": "Extra Large",
             "unlock": {
                 "mission": "EXO F.A.R.M. Unlock"
             }
         }
-    ],
+    },
     "recipes": [
         {
-            "type": "printing",
+            "result": "Carbon",
+            "type": "refining",
+            "materials": [
+                "Organic"
+            ]
+        },
+        {
+            "result": "Ceramic",
+            "type": "refining",
+            "materials": [
+                "Clay"
+            ]
+        },
+        {
+            "result": "Glass",
+            "type": "refining",
+            "materials": [
+                "Quartz"
+            ]
+        },
+        {
+            "result": "Aluminum",
+            "type": "refining",
+            "materials": [
+                "Laterite"
+            ]
+        },
+        {
+            "result": "Zinc",
+            "type": "refining",
+            "materials": [
+                "Sphalerite"
+            ]
+        },
+        {
+            "result": "Copper",
+            "type": "refining",
+            "materials": [
+                "Malachite"
+            ]
+        },
+        {
+            "result": "Tungsten",
+            "type": "refining",
+            "materials": [
+                "Wolframite"
+            ]
+        },
+        {
+            "result": "Iron",
+            "type": "refining",
+            "materials": [
+                "Hematite"
+            ]
+        },
+        {
+            "result": "Titanium",
+            "type": "refining",
+            "materials": [
+                "Titanite"
+            ]
+        },
+        {
             "result": "Small Printer",
+            "type": "printing",
             "materials": [
                 "Compound"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Packager",
+            "type": "printing",
             "materials": [
                 "Graphite"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Leveling Block",
+            "type": "printing",
             "materials": [
                 "Small Canister"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Tethers",
+            "type": "printing",
             "materials": [
                 "Compound"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Oxygen Filters",
+            "type": "printing",
             "materials": [
                 "Resin"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Oxygen Tank",
+            "type": "printing",
             "materials": [
                 "Glass"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Portable Oxygenator",
+            "type": "printing",
             "materials": [
                 "Nanocarbon Alloy"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Small Canister",
+            "type": "printing",
             "materials": [
                 "Resin"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Beacon",
+            "type": "printing",
             "materials": [
                 "Quartz"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Worklight",
+            "type": "printing",
             "materials": [
                 "Copper"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Glowsticks",
+            "type": "printing",
             "materials": [
                 "Organic"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Floodlight",
+            "type": "printing",
             "materials": [
                 "Tungsten"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Small Generator",
+            "type": "printing",
             "materials": [
                 "Compound"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Power Cells",
+            "type": "printing",
             "materials": [
                 "Graphite"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Small Solar",
+            "type": "printing",
             "materials": [
                 "Copper"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Small Wind Turbine",
+            "type": "printing",
             "materials": [
                 "Ceramic"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Small Battery",
+            "type": "printing",
             "materials": [
                 "Zinc"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Boost Mod",
+            "type": "printing",
             "materials": [
                 "Zinc"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Wide Mod",
+            "type": "printing",
             "materials": [
                 "Zinc"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Narrow Mod",
+            "type": "printing",
             "materials": [
                 "Zinc"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Inhibitor Mod",
+            "type": "printing",
             "materials": [
                 "Zinc"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Alignment Mod",
+            "type": "printing",
             "materials": [
                 "Zinc"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Drill Mod 1",
+            "type": "printing",
             "materials": [
                 "Ceramic"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Drill Mod 2",
+            "type": "printing",
             "materials": [
                 "Tungsten Carbide"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Drill Mod 3",
+            "type": "printing",
             "materials": [
                 "Diamond"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Dynamite",
+            "type": "printing",
             "materials": [
                 "Explosive Powder"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Fireworks",
+            "type": "printing",
             "materials": [
                 "Explosive Powder"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Small Camera",
+            "type": "printing",
             "materials": [
                 "EXO Chip"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Small Trumpet Horn",
+            "type": "printing",
             "materials": [
                 "Resin"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Holographic Figurine",
+            "type": "printing",
             "materials": [
                 "Plastic"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Terrain Analyzer",
+            "type": "printing",
             "materials": [
                 "Zinc"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Probe Scanner",
+            "type": "printing",
             "materials": [
                 "Steel"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Solid-Fuel Jump Jet",
+            "type": "printing",
             "materials": [
                 "Aluminum Alloy"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Hydrazine Jet Pack",
+            "type": "printing",
             "materials": [
                 "Titanium Alloy"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Hoverboard",
+            "type": "printing",
             "materials": [
                 "EXO Chip"
             ],
             "station": "Backpack Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Printer",
+            "type": "printing",
             "materials": [
                 "Compound",
                 "Compound"
@@ -1510,8 +1726,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Oxygenator",
+            "type": "printing",
             "materials": [
                 "Aluminum",
                 "Ceramic"
@@ -1519,8 +1735,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Shredder",
+            "type": "printing",
             "materials": [
                 "Iron",
                 "Iron"
@@ -1528,8 +1744,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Field Shelter",
+            "type": "printing",
             "materials": [
                 "Silicone",
                 "Graphene"
@@ -1537,8 +1753,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Auto Arm",
+            "type": "printing",
             "materials": [
                 "Aluminum",
                 "Graphite"
@@ -1546,8 +1762,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Resource Canister",
+            "type": "printing",
             "materials": [
                 "Plastic",
                 "Glass"
@@ -1555,8 +1771,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Fluid & Soil Canister",
+            "type": "printing",
             "materials": [
                 "Plastic",
                 "Glass"
@@ -1564,8 +1780,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Gas Canister",
+            "type": "printing",
             "materials": [
                 "Silicone",
                 "Glass"
@@ -1573,8 +1789,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Power Sensor",
+            "type": "printing",
             "materials": [
                 "Zinc",
                 "Copper"
@@ -1582,8 +1798,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Storage Sensor",
+            "type": "printing",
             "materials": [
                 "Zinc",
                 "Quartz"
@@ -1591,8 +1807,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Battery Sensor",
+            "type": "printing",
             "materials": [
                 "Zinc",
                 "Graphite"
@@ -1600,56 +1816,56 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Button Repeater",
+            "type": "printing",
             "materials": [
                 "Zinc"
             ],
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Proximity Repeater",
+            "type": "printing",
             "materials": [
                 "Zinc"
             ],
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Delay Repeater",
+            "type": "printing",
             "materials": [
                 "Zinc"
             ],
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Count Repeater",
+            "type": "printing",
             "materials": [
                 "Zinc"
             ],
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Power Extenders",
+            "type": "printing",
             "materials": [
                 "Copper"
             ],
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Power Switch",
+            "type": "printing",
             "materials": [
                 "Copper"
             ],
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Splitter",
+            "type": "printing",
             "materials": [
                 "Copper",
                 "Graphite"
@@ -1657,8 +1873,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Generator",
+            "type": "printing",
             "materials": [
                 "Aluminum",
                 "Tungsten"
@@ -1666,8 +1882,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Solar Panel",
+            "type": "printing",
             "materials": [
                 "Copper",
                 "Glass"
@@ -1675,8 +1891,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Wind Turbine",
+            "type": "printing",
             "materials": [
                 "Aluminum",
                 "Ceramic"
@@ -1684,8 +1900,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Battery",
+            "type": "printing",
             "materials": [
                 "Lithium",
                 "Zinc"
@@ -1693,8 +1909,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "RTG",
+            "type": "printing",
             "materials": [
                 "Nanocarbon Alloy",
                 "Lithium"
@@ -1702,16 +1918,16 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Platform A",
+            "type": "printing",
             "materials": [
                 "Resin"
             ],
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Platform B",
+            "type": "printing",
             "materials": [
                 "Resin",
                 "Resin"
@@ -1719,24 +1935,24 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Platform C",
+            "type": "printing",
             "materials": [
                 "Resin"
             ],
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Tall Platform",
+            "type": "printing",
             "materials": [
                 "Ceramic"
             ],
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Medium T-Platform",
+            "type": "printing",
             "materials": [
                 "Resin",
                 "Resin"
@@ -1744,8 +1960,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Storage",
+            "type": "printing",
             "materials": [
                 "Resin",
                 "Resin"
@@ -1753,8 +1969,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Storage Silo",
+            "type": "printing",
             "materials": [
                 "Titanium",
                 "Titanium"
@@ -1762,16 +1978,16 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Tall Storage",
+            "type": "printing",
             "materials": [
                 "Ceramic"
             ],
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Rover Seat",
+            "type": "printing",
             "materials": [
                 "Compound",
                 "Compound"
@@ -1779,8 +1995,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Tractor",
+            "type": "printing",
             "materials": [
                 "Aluminum",
                 "Aluminum"
@@ -1788,8 +2004,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Trailer",
+            "type": "printing",
             "materials": [
                 "Compound",
                 "Aluminum"
@@ -1797,8 +2013,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Buggy Horn",
+            "type": "printing",
             "materials": [
                 "Plastic",
                 "Rubber"
@@ -1806,8 +2022,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Winch",
+            "type": "printing",
             "materials": [
                 "EXO Chip",
                 "Rubber"
@@ -1815,8 +2031,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Paver",
+            "type": "printing",
             "materials": [
                 "Aluminum Alloy",
                 "Silicone"
@@ -1824,8 +2040,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Drill Strength 1",
+            "type": "printing",
             "materials": [
                 "Tungsten Carbide",
                 "Ceramic"
@@ -1833,8 +2049,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Drill Strength 2",
+            "type": "printing",
             "materials": [
                 "Titanium Alloy",
                 "Tungsten Carbide"
@@ -1842,8 +2058,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Drill Strength 3",
+            "type": "printing",
             "materials": [
                 "Diamond",
                 "Titanium Alloy"
@@ -1851,8 +2067,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Solid-Fuel Thruster",
+            "type": "printing",
             "materials": [
                 "Aluminum",
                 "Ammonium"
@@ -1860,8 +2076,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Hydrazine Thruster",
+            "type": "printing",
             "materials": [
                 "EXO Chip",
                 "Steel"
@@ -1869,8 +2085,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Rail Post Bundle",
+            "type": "printing",
             "materials": [
                 "Resin",
                 "Aluminum"
@@ -1878,8 +2094,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Tall Rail Post Bundle",
+            "type": "printing",
             "materials": [
                 "Resin",
                 "Aluminum"
@@ -1887,8 +2103,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Rail Junction Bundle",
+            "type": "printing",
             "materials": [
                 "Aluminum",
                 "Aluminum"
@@ -1896,8 +2112,8 @@
             "station": "Small Printer"
         },
         {
-            "type": "printing",
             "result": "Large Printer",
+            "type": "printing",
             "materials": [
                 "Compound",
                 "Compound",
@@ -1906,8 +2122,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Smelting Furnace",
+            "type": "printing",
             "materials": [
                 "Compound",
                 "Resin",
@@ -1916,8 +2132,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Soil Centrifuge",
+            "type": "printing",
             "materials": [
                 "Compound",
                 "Compound",
@@ -1926,8 +2142,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Chemistry Lab",
+            "type": "printing",
             "materials": [
                 "Ceramic",
                 "Glass",
@@ -1936,8 +2152,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Atmospheric Condenser",
+            "type": "printing",
             "materials": [
                 "Plastic",
                 "Glass",
@@ -1946,8 +2162,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Research Chamber",
+            "type": "printing",
             "materials": [
                 "Compound",
                 "Compound",
@@ -1956,8 +2172,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "EXO Request Platform",
+            "type": "printing",
             "materials": [
                 "Resin",
                 "Resin",
@@ -1966,8 +2182,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Trade Platform",
+            "type": "printing",
             "materials": [
                 "Iron",
                 "Tungsten",
@@ -1976,8 +2192,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Large Shredder",
+            "type": "printing",
             "materials": [
                 "Tungsten Carbide",
                 "Iron",
@@ -1986,8 +2202,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Large Solar Panel",
+            "type": "printing",
             "materials": [
                 "Aluminum Alloy",
                 "Glass",
@@ -1996,8 +2212,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Large Wind Turbine",
+            "type": "printing",
             "materials": [
                 "Aluminum Alloy",
                 "Glass",
@@ -2006,8 +2222,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Large Platform A",
+            "type": "printing",
             "materials": [
                 "Resin",
                 "Resin"
@@ -2015,8 +2231,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Large Platform B",
+            "type": "printing",
             "materials": [
                 "Resin",
                 "Resin",
@@ -2025,8 +2241,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Large Platform C",
+            "type": "printing",
             "materials": [
                 "Resin",
                 "Ceramic",
@@ -2035,8 +2251,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Large T-Platform",
+            "type": "printing",
             "materials": [
                 "Aluminum",
                 "Aluminum",
@@ -2045,8 +2261,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Large Curved Platform",
+            "type": "printing",
             "materials": [
                 "Compound",
                 "Ceramic",
@@ -2055,8 +2271,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Large Extended Platform",
+            "type": "printing",
             "materials": [
                 "Resin",
                 "Resin"
@@ -2064,8 +2280,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Large Resource Canister",
+            "type": "printing",
             "materials": [
                 "Glass",
                 "Titanium",
@@ -2074,8 +2290,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Large Storage",
+            "type": "printing",
             "materials": [
                 "Ceramic",
                 "Ceramic",
@@ -2084,8 +2300,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Large Storage Silo A",
+            "type": "printing",
             "materials": [
                 "Aluminum",
                 "Aluminum",
@@ -2094,8 +2310,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Large Storage Silo B",
+            "type": "printing",
             "materials": [
                 "Steel",
                 "Steel",
@@ -2104,8 +2320,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Large Active Storage",
+            "type": "printing",
             "materials": [
                 "Zinc",
                 "Aluminum",
@@ -2114,8 +2330,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Buggy",
+            "type": "printing",
             "materials": [
                 "Compound",
                 "Aluminum"
@@ -2123,8 +2339,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Large Rover Seat",
+            "type": "printing",
             "materials": [
                 "Plastic",
                 "Plastic",
@@ -2133,8 +2349,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Rover",
+            "type": "printing",
             "materials": [
                 "Plastic",
                 "Plastic",
@@ -2143,8 +2359,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "VTOL",
+            "type": "printing",
             "materials": [
                 "Tungsten Carbide",
                 "Silicone",
@@ -2153,8 +2369,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Crane",
+            "type": "printing",
             "materials": [
                 "Steel",
                 "Silicone",
@@ -2163,8 +2379,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Large Fog Horn",
+            "type": "printing",
             "materials": [
                 "Plastic",
                 "Rubber",
@@ -2173,8 +2389,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Rail Engine",
+            "type": "printing",
             "materials": [
                 "Resin",
                 "Aluminum",
@@ -2183,8 +2399,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Rail Car",
+            "type": "printing",
             "materials": [
                 "Resin",
                 "Resin",
@@ -2193,8 +2409,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Recreational Sphere",
+            "type": "printing",
             "materials": [
                 "Aluminum Alloy",
                 "Rubber"
@@ -2202,8 +2418,8 @@
             "station": "Medium Printer"
         },
         {
-            "type": "printing",
             "result": "Shelter",
+            "type": "printing",
             "materials": [
                 "Plastic",
                 "Plastic",
@@ -2213,8 +2429,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Auto Extractor",
+            "type": "printing",
             "materials": [
                 "Tungsten Carbide",
                 "Rubber",
@@ -2224,8 +2440,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Extra Large Shredder",
+            "type": "printing",
             "materials": [
                 "Tungsten Carbide",
                 "Steel",
@@ -2235,8 +2451,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Solar Array",
+            "type": "printing",
             "materials": [
                 "Copper",
                 "Glass",
@@ -2246,8 +2462,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "XL Wind Turbine",
+            "type": "printing",
             "materials": [
                 "Iron",
                 "Ceramic",
@@ -2257,8 +2473,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Sensor Arch",
+            "type": "printing",
             "materials": [
                 "Zinc",
                 "Quartz"
@@ -2266,8 +2482,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "XL Sensor Arch",
+            "type": "printing",
             "materials": [
                 "Zinc",
                 "Zinc",
@@ -2277,8 +2493,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "XL Sensor Canopy",
+            "type": "printing",
             "materials": [
                 "Zinc",
                 "Zinc",
@@ -2288,8 +2504,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Large Sensor Ring",
+            "type": "printing",
             "materials": [
                 "Zinc",
                 "Quartz"
@@ -2297,8 +2513,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Large Sensor Hoop A",
+            "type": "printing",
             "materials": [
                 "Zinc",
                 "Quartz",
@@ -2307,8 +2523,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Large Sensor Hoop B",
+            "type": "printing",
             "materials": [
                 "Zinc",
                 "Zinc",
@@ -2317,8 +2533,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "XL Sensor Hoop A",
+            "type": "printing",
             "materials": [
                 "Zinc",
                 "Zinc",
@@ -2328,8 +2544,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "XL Sensor Hoop B",
+            "type": "printing",
             "materials": [
                 "Zinc",
                 "Zinc",
@@ -2339,8 +2555,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Extra Large Platform A",
+            "type": "printing",
             "materials": [
                 "Iron",
                 "Iron",
@@ -2350,8 +2566,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Extra Large Platform B",
+            "type": "printing",
             "materials": [
                 "Iron",
                 "Iron",
@@ -2361,8 +2577,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Extra Large Platform C",
+            "type": "printing",
             "materials": [
                 "Resin",
                 "Resin",
@@ -2372,8 +2588,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Extra Large Curved Platform",
+            "type": "printing",
             "materials": [
                 "Ceramic",
                 "Ceramic",
@@ -2383,8 +2599,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "XL Extended Platform",
+            "type": "printing",
             "materials": [
                 "Resin",
                 "Resin",
@@ -2393,8 +2609,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Figurine Platform",
+            "type": "printing",
             "materials": [
                 "Iron",
                 "Iron",
@@ -2404,8 +2620,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Extra Large Storage",
+            "type": "printing",
             "materials": [
                 "Iron",
                 "Iron",
@@ -2415,8 +2631,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Large Rover",
+            "type": "printing",
             "materials": [
                 "Aluminum Alloy",
                 "Rubber",
@@ -2426,8 +2642,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Landing Pad",
+            "type": "printing",
             "materials": [
                 "Aluminum",
                 "Ceramic",
@@ -2436,8 +2652,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Small Shuttle",
+            "type": "printing",
             "materials": [
                 "Aluminum",
                 "Aluminum"
@@ -2445,8 +2661,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Medium Shuttle",
+            "type": "printing",
             "materials": [
                 "Aluminum Alloy",
                 "Ceramic",
@@ -2455,8 +2671,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Large Shuttle",
+            "type": "printing",
             "materials": [
                 "Titanium Alloy",
                 "Ceramic",
@@ -2466,8 +2682,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "Rail Station",
+            "type": "printing",
             "materials": [
                 "Titanium",
                 "Titanium",
@@ -2477,8 +2693,8 @@
             "station": "Large Printer"
         },
         {
-            "type": "printing",
             "result": "PUM-KN Shelter",
+            "type": "printing",
             "materials": [
                 "Carbon",
                 "Resin",

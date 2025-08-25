@@ -47,7 +47,7 @@ class Parser:
 
         return get_soup(self.page_filename)
 
-    def parse(self) -> None:
+    def parse(self) -> dict:
         """Parse the page."""
 
         data = self.do_parse(self.get_soup())
@@ -55,7 +55,9 @@ class Parser:
         with open(self.output_filename, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4)
 
-    def do_parse(self, soup: BeautifulSoup) -> dict[str, list]:
+        return data
+
+    def do_parse(self, soup: BeautifulSoup) -> dict:
         """Do the actual parsing"""
 
         raise NotImplementedError('Override this method!')
