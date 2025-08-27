@@ -243,6 +243,192 @@
                 "Refined"
             ]
         },
+        "Hydrogen": {
+            "name": "Hydrogen",
+            "icon": "Icon_Hydrogen.png",
+            "tier": "Small",
+            "tags": [
+                "Atmospheric"
+            ],
+            "found_on": [
+                "Sylva",
+                "Calidor",
+                "Vesania",
+                "Novus"
+            ]
+        },
+        "Argon": {
+            "name": "Argon",
+            "icon": "Icon_Argon.png",
+            "tier": "Small",
+            "tags": [
+                "Atmospheric"
+            ],
+            "found_on": [
+                "Vesania",
+                "Glacio"
+            ]
+        },
+        "Methane": {
+            "name": "Methane",
+            "icon": "Icon_Methane.png",
+            "tier": "Small",
+            "tags": [
+                "Atmospheric"
+            ],
+            "found_on": [
+                "Novus",
+                "Atrox"
+            ]
+        },
+        "Nitrogen": {
+            "name": "Nitrogen",
+            "icon": "Icon_Nitrogen.png",
+            "tier": "Small",
+            "tags": [
+                "Atmospheric"
+            ],
+            "found_on": [
+                "Sylva",
+                "Vesania",
+                "Atrox"
+            ]
+        },
+        "Sulfur": {
+            "name": "Sulfur",
+            "icon": "Icon_Sulfur.png",
+            "tier": "Small",
+            "tags": [
+                "Atmospheric"
+            ],
+            "found_on": [
+                "Calidor",
+                "Atrox"
+            ]
+        },
+        "Helium": {
+            "name": "Helium",
+            "icon": "Icon_Helium.png",
+            "tier": "Small",
+            "tags": [
+                "Atmospheric"
+            ],
+            "found_on": [
+                "Atrox"
+            ]
+        },
+        "Rubber": {
+            "name": "Rubber",
+            "icon": "Icon_Rubber.png",
+            "tier": "Small",
+            "tags": [
+                "Composite"
+            ]
+        },
+        "Plastic": {
+            "name": "Plastic",
+            "icon": "Icon_Plastic.png",
+            "tier": "Small",
+            "tags": [
+                "Composite"
+            ]
+        },
+        "Aluminum Alloy": {
+            "name": "Aluminum Alloy",
+            "icon": "Icon_Aluminum_Alloy.png",
+            "tier": "Small",
+            "tags": [
+                "Composite"
+            ]
+        },
+        "Tungsten Carbide": {
+            "name": "Tungsten Carbide",
+            "icon": "Icon_Tungsten_Carbide.png",
+            "tier": "Small",
+            "tags": [
+                "Composite"
+            ]
+        },
+        "Graphene": {
+            "name": "Graphene",
+            "icon": "Icon_Graphene.png",
+            "tier": "Small",
+            "tags": [
+                "Composite"
+            ]
+        },
+        "Diamond": {
+            "name": "Diamond",
+            "icon": "Icon_Diamond.png",
+            "tier": "Small",
+            "tags": [
+                "Composite"
+            ]
+        },
+        "Hydrazine": {
+            "name": "Hydrazine",
+            "icon": "Icon_Hydrazine.png",
+            "tier": "Small",
+            "tags": [
+                "Composite"
+            ]
+        },
+        "Silicone": {
+            "name": "Silicone",
+            "icon": "Icon_Silicone.png",
+            "tier": "Small",
+            "tags": [
+                "Composite"
+            ]
+        },
+        "Explosive Powder": {
+            "name": "Explosive Powder",
+            "icon": "Icon_Explosive_Powder.png",
+            "tier": "Small",
+            "tags": [
+                "Composite"
+            ]
+        },
+        "Steel": {
+            "name": "Steel",
+            "icon": "Icon_Steel.png",
+            "tier": "Small",
+            "tags": [
+                "Composite"
+            ]
+        },
+        "Titanium Alloy": {
+            "name": "Titanium Alloy",
+            "icon": "Icon_Titanium_Alloy.png",
+            "tier": "Small",
+            "tags": [
+                "Composite"
+            ]
+        },
+        "Nanocarbon Alloy": {
+            "name": "Nanocarbon Alloy",
+            "icon": "Icon_Nanocarbon_Alloy.png",
+            "tier": "Small",
+            "tags": [
+                "Composite"
+            ]
+        },
+        "Scrap": {
+            "name": "Scrap",
+            "icon": "Icon_Scrap.png",
+            "tier": "Small",
+            "tags": [
+                "Special"
+            ]
+        },
+        "EXO Chip": {
+            "name": "EXO Chip",
+            "icon": "Icon_EXO_Chip.png",
+            "tier": "Small",
+            "tags": [
+                "Special"
+            ]
+        },
         "Small Printer": {
             "name": "Small Printer",
             "icon": "Icon_Tier_Medium.png",
@@ -1434,6 +1620,108 @@
             "type": "refining",
             "materials": [
                 "Titanite"
+            ]
+        },
+        {
+            "result": "Rubber",
+            "type": "chemistry",
+            "materials": [
+                "Organic",
+                "Resin"
+            ]
+        },
+        {
+            "result": "Plastic",
+            "type": "chemistry",
+            "materials": [
+                "Carbon",
+                "Compound"
+            ]
+        },
+        {
+            "result": "Aluminum Alloy",
+            "type": "chemistry",
+            "materials": [
+                "Aluminum",
+                "Copper"
+            ]
+        },
+        {
+            "result": "Tungsten Carbide",
+            "type": "chemistry",
+            "materials": [
+                "Tungsten",
+                "Carbon"
+            ]
+        },
+        {
+            "result": "Graphene",
+            "type": "chemistry",
+            "materials": [
+                "Graphite",
+                "Hydrazine"
+            ]
+        },
+        {
+            "result": "Diamond",
+            "type": "chemistry",
+            "materials": [
+                "Graphene",
+                "Graphene"
+            ]
+        },
+        {
+            "result": "Hydrazine",
+            "type": "chemistry",
+            "materials": [
+                "Ammonium",
+                "Ammonium",
+                "Hydrogen"
+            ]
+        },
+        {
+            "result": "Silicone",
+            "type": "chemistry",
+            "materials": [
+                "Resin",
+                "Quartz",
+                "Methane"
+            ]
+        },
+        {
+            "result": "Explosive Powder",
+            "type": "chemistry",
+            "materials": [
+                "Carbon",
+                "Carbon",
+                "Sulfur"
+            ]
+        },
+        {
+            "result": "Steel",
+            "type": "chemistry",
+            "materials": [
+                "Iron",
+                "Carbon",
+                "Argon"
+            ]
+        },
+        {
+            "result": "Titanium Alloy",
+            "type": "chemistry",
+            "materials": [
+                "Titanium",
+                "Graphene",
+                "Nitrogen"
+            ]
+        },
+        {
+            "result": "Nanocarbon Alloy",
+            "type": "chemistry",
+            "materials": [
+                "Titanium Alloy",
+                "Steel",
+                "Helium"
             ]
         },
         {

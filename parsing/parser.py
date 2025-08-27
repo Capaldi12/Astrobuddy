@@ -47,13 +47,14 @@ class Parser:
 
         return get_soup(self.page_filename)
 
-    def parse(self) -> dict:
+    def parse(self, write=False) -> dict:
         """Parse the page."""
 
         data = self.do_parse(self.get_soup())
 
-        with open(self.output_filename, 'w', encoding='utf-8') as file:
-            json.dump(data, file, indent=4)
+        if write:
+            with open(self.output_filename, 'w', encoding='utf-8') as file:
+                json.dump(data, file, indent=4)
 
         return data
 

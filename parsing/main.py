@@ -1,4 +1,5 @@
 import json
+import shutil
 
 from merging import merge
 from parser import Parser
@@ -34,23 +35,32 @@ BOLD = '\33[1m'
 ITALIC = '\33[3m'
 
 
-def main():
+def run_parser(parser: Parser, write=True):
+    try:
+        data = parser.parse(write)
+        print(
+            f'{GREEN}{BOLD}{ITALIC}{parser.name}:{END} done'
+        )
+        return data
+
+    except NotImplementedError:
+        print(
+            f'{YELLOW}{BOLD}{ITALIC}{parser.name}:{END} not implemented'
+        )
+
+    except Exception as e:
+        print(
+            f'{RED}{BOLD}{ITALIC}{parser.name}:{END} error - {e}'
+        )
+
+
+def main(copy_output=False):
     data = []
 
     for parser in parsers:
-        try:
-            data.append(parser.parse())
-            print(
-                f'{GREEN}{BOLD}{ITALIC}{parser.name}:{END} done'
-            )
-        except NotImplementedError:
-            print(
-                f'{YELLOW}{BOLD}{ITALIC}{parser.name}:{END} not implemented'
-            )
-        except Exception as e:
-            print(
-                f'{RED}{BOLD}{ITALIC}{parser.name}:{END} error - {e}'
-            )
+        data.append(run_parser(parser))
+
+    data = [datum for datum in data if datum]
 
     merged_data = merge(*data)
 
@@ -58,9 +68,14 @@ def main():
 
     final_data = merged_data
 
-    with open('output/data.json', 'w', encoding='utf-8') as file:
+    output_file = 'output/data.json'
+
+    with open(output_file, 'w', encoding='utf-8') as file:
         json.dump(final_data, file, indent=4)
+
+    if copy_output:
+        shutil.copyfile(output_file, '../data/data.json')
 
 
 if __name__ == '__main__':
-    main()
+    main(copy_output=True)

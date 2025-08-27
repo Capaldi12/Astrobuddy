@@ -15,12 +15,26 @@ class ResourcesParser(Parser):
         universal = self.get_universal(soup)
         planet_specific = self.get_planet_specific(soup)
         refined, refining_recipes = self.get_refined(soup)
-        # TODO Atmospheric
-        # TODO Composite
-        # TODO Other
+        atmospheric = self.get_atmospheric(soup)
+        composite, chemistry_recipes = self.get_composite(soup)
+        special = self.get_special(soup)
 
-        items = merge(universal, planet_specific, refined, key='items')
-        recipes = refining_recipes
+        items = merge(
+            universal,
+            planet_specific,
+            refined,
+            atmospheric,
+            composite,
+            special,
+
+            key='items'
+        )
+        recipes = merge(
+            refining_recipes,
+            chemistry_recipes,
+
+            key='recipes'
+        )
 
         return {
             'items': items,
@@ -92,6 +106,77 @@ class ResourcesParser(Parser):
             })
 
         return items, recipes
+
+    def get_atmospheric(self, soup: BeautifulSoup):
+        """Parse atmospheric resources table"""
+
+        table = soup.select('.darktable')[2]
+        header, *rows = table.select('tr')
+
+        planets = [planet.text.strip() for planet in header.select('th')[1:]]
+
+        items = {}
+
+        for row in rows:
+            resource, *cols = row.select('td')
+
+            item = self.get_item(resource) | {
+                'tags': ['Atmospheric'],
+                'found_on': [
+                    planets[i]
+                    for i, col in enumerate(cols)
+                    if col.text.strip() != '×'
+                ],
+            }
+
+            # TODO PPU for planets
+
+            items[item['name']] = item
+
+        return items
+
+    def get_composite(self, soup: BeautifulSoup):
+        """Parse composite resources table"""
+
+        table = soup.select('.darktable')[3]
+        rows = table.select('tr')[1:]
+
+        items = {}
+        recipes = []
+
+        for row in rows:
+            composite, *materials = row.select('td')
+
+            item = self.get_item(composite) | {'tags': ['Composite']}
+            items[item['name']] = item
+
+            recipes.append({
+                'result': item['name'],
+                'type': 'chemistry',
+                'materials': [
+                    mat.text.strip()
+                    for mat in materials
+                    if mat.text.strip() != 'n/a'
+                ],
+            })
+
+        return items, recipes
+
+    def get_special(self, soup: BeautifulSoup):
+        """Parse special resources list"""
+
+        ul = soup.select('.mw-body-content>div>ul')[0]
+
+        items = {}
+
+        for li in ul.select('li'):
+            item = self.get_item(li) | {'tags': ['Special']}
+
+            # We don't really need others
+            if item['name'] in ['Scrap', 'EXO Chip']:
+                items[item['name']] = item
+
+        return items
 
     def get_item(self, element):
         """Get item data from page element"""
