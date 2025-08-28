@@ -31,6 +31,11 @@ export default class CraftingPanel extends LitElement {
             <recipe-table .filter=${{station: 'Small Printer'}}></recipe-table>
             <recipe-table .filter=${{station: 'Medium Printer'}}></recipe-table>
             <recipe-table .filter=${{station: 'Large Printer'}}></recipe-table>
+            <div>
+                <recipe-table .filter=${{type: 'refining'}}></recipe-table>
+                <recipe-table .filter=${{type: 'chemistry'}}></recipe-table>
+            </div>
+
         `;
     }
 }

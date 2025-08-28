@@ -6,12 +6,12 @@
         "<name>": {
             "name": "str",
             "icon": "str",  // Filename
-            "tier": "str",  // See options
+            "tier": "str",  // See options for tier
 
             "tags": "list[str]",  // See tags
 
             // Optional
-            "found_on": "'all' | List[str]",  // See options
+            "found_on": "'all' | List[str]",  // See options for planet
 
             // Optional
             "power": {
@@ -47,11 +47,70 @@
         }
     },
     "recipes": [
-        // TODO
+        {
+            "result": "str",  // Name of the resulting item
+            "count": "int",  // Optional, how many items produced
+            "type": "str",  // See options for recipe/type
+            "station": "str",  // Optional, name of the crafting station
+            "materials": "list[str]"  // Names of items used in recipe
+        }
     ],
-    "planets": [
-        // TODO
-    ],
+    "planets": {
+        "<name>": {
+            "name": "str",
+            "type": "str",  // Not sure if needed, but just in case
+            "icon": "str",
+
+            // Resources that can be harvested on the planer
+            "resources": {
+                "primary": "str",  // First cave layer
+                "secondary": "str",  // Mountains/deeper caves
+
+                // Gathered using atmospheric condenser
+                "atmospheric": {
+                    "<resource>": "int"  // PPU for each gas present
+                },
+
+                // Power generation properties
+                "power": {
+                    "sun": "str",  // See options for power_tier
+                    "wind": "str"  // See options for power_tier
+                }
+            },
+
+            // Gateway network properties (spoilers?)
+            "gateway": {
+                "count": "int",  // Number of gateways on the planer
+                "power": "int",  // Power requirement to activate a gateway
+                "resource": "str",  // Resource to activate the core
+                "symbol": "str"  // Filename of gateway symbol
+            },
+
+            "galastrapod": "str" // Name of galastrapod for the planer
+        }
+    },
+    "galastrapods": {
+        "name": "str",
+        "scientific_name": "str",
+        "icon": "str",
+        "planet": "str",  // See options for planet
+        "food": "list[str]",  // Favourite seeds
+
+        // Power provided when fed
+        "power": {
+            "icon": "str",
+            "description": "str"
+        }
+    },
+
+    // Little helper to not put the same station in every recipe, if there's only one for the type
+    "recipe_types": {
+        "<recipe/type>": {
+            "stations": "list[str]",  // Stations that do this type of recipe
+            "default_station": "str"  // Default station, when not specified
+            // TODO ?
+        }
+    },
 
 /* Below items are not the part of data file */
 
@@ -63,7 +122,7 @@
             "Large",
             "Extra Large"
         ],
-        "found_on": [
+        "planet": [
             "Sylva",
             "Desolo",
             "Calidor",
@@ -77,6 +136,13 @@
             "refining",
             "chemistry"
             // TODO
+        ],
+        "power_tier": [
+            "Very Low",
+            "Low",
+            "Medium",
+            "High",
+            "Very High"
         ]
     },
 
@@ -138,7 +204,11 @@
         "Augment": {
             "Drill Mod": {}
         },
-        "Automation": {},   // Used for automating resource processing and stuff
+
+        // Used for automating resource processing and stuff
+        "Automation": {
+            "Sensor": {}
+        },
 
         // Sizes/tiers for convenience
         "Small": {},
